@@ -1,0 +1,52 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #6b9bd2;
+  --ifm-color-primary-dark: #5a8bc7;
+  --ifm-color-primary-darker: #5082c2;
+  --ifm-color-primary-darkest: #3f6ba0;
+  --ifm-color-primary-light: #7ca8d7;
+  --ifm-color-primary-lighter: #86b1da;
+  --ifm-color-primary-lightest: #a1c4e2;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #7ca8d7;
+  --ifm-color-primary-dark: #6b9bd2;
+  --ifm-color-primary-darker: #5a8bc7;
+  --ifm-color-primary-darkest: #5082c2;
+  --ifm-color-primary-light: #86b1da;
+  --ifm-color-primary-lighter: #a1c4e2;
+  --ifm-color-primary-lightest: #b6d1ea;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Force light theme */
+html {
+  color-scheme: light !important;
+}
+
+html[data-theme='dark'] {
+  color-scheme: light !important;
+}
+
+/* Navbar logo and title positioning */
+.navbar__brand {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar__logo {
+  max-height: 24px;
+  vertical-align: middle;
+}

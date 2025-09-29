@@ -1,0 +1,24 @@
+{
+  "name": "Dasha's IMBA Notes - MBA Study Materials",
+  "short_name": "MBA Notes",
+  "description": "Comprehensive MBA study materials covering Finance, Management, Marketing, Operations & more. Free business education resources.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2E8555",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "img/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "img/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "business", "productivity"],
+  "lang": "en-US"
+}

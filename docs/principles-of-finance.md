@@ -1,0 +1,1616 @@
+---
+title: "Principles of Finance"
+description: "Complete principles of finance study guide covering fundamental financial concepts, time value of money, risk and return, and financial statement analysis for MBA students."
+keywords: ["principles of finance", "financial concepts", "time value of money", "risk and return", "financial statements", "MBA finance fundamentals", "financial analysis"]
+sidebar_position: 5
+---
+
+# Principles of Finance
+
+## Table of Contents
+1. [Course Overview](#course-overview)
+2. [Lecture 1: Introduction to Finance](#lecture-1-introduction-to-finance)
+   - [What is Finance?](#what-is-finance)
+   - [Real vs Financial Assets](#real-vs-financial-assets)
+   - [Corporate Decisions](#corporate-decisions)
+   - [Time Value of Money](#time-value-of-money)
+   - [NPV and Decision Making](#npv-and-decision-making)
+   - [MBA Investment Example](#mba-investment-example)
+3. [Lecture 2: Finance Under Certainty vs Uncertainty](#lecture-2-finance-under-certainty-vs-uncertainty)
+   - [Types of Finance - Q&A Review](#types-of-finance---qa-review)
+   - [Finance Under Certainty](#finance-under-certainty)
+   - [Finance Under Uncertainty](#finance-under-uncertainty)
+   - [Finance Under Ambiguity](#finance-under-ambiguity)
+   - [Financial System Players](#financial-system-players)
+   - [Commercial vs Investment Banks](#commercial-vs-investment-banks)
+   - [Primary vs Secondary Markets](#primary-vs-secondary-markets)
+   - [Five Tasks of Financial Manager](#five-tasks-of-financial-manager)
+   - [Goal of Financial Manager](#goal-of-financial-manager)
+4. [Lecture 3: Financial Manager Tasks and Business Organization](#lecture-3-financial-manager-tasks-and-business-organization)
+   - [Administrative Notes](#administrative-notes)
+   - [Five Tasks of Financial Manager](#five-tasks-of-financial-manager-1)
+   - [Types of Financial Assets](#types-of-financial-assets)
+   - [Three Types of Financial Decisions](#three-types-of-financial-decisions)
+   - [Forms of Business Organization](#forms-of-business-organization)
+   - [Limited Liability Example](#limited-liability-example)
+   - [Goal of Financial Management](#goal-of-financial-management)
+   - [Agency Problem](#agency-problem)
+   - [ESG (Environmental, Social, Governance)](#esg-environmental-social-governance)
+   - [Ethical Considerations](#ethical-considerations)
+   - [Key Takeaways](#key-takeaways)
+   - [Review Questions](#review-questions)
+5. [Lecture 4: Financial Assets and Capital Structure](#lecture-4-financial-assets-and-capital-structure)
+   - [Quiz Review and Financial Assets](#quiz-review-and-financial-assets)
+   - [Agency Problem Mechanisms](#agency-problem-mechanisms)
+   - [Primary vs Secondary Markets](#primary-vs-secondary-markets-1)
+   - [Capital Structure Example](#capital-structure-example)
+   - [Payoff Functions and Risk Analysis](#payoff-functions-and-risk-analysis)
+   - [Key Takeaways](#key-takeaways-1)
+6. [Lecture 5: Contingent Claim Approach](#lecture-5-contingent-claim-approach)
+   - [Introduction to Merton's Model](#introduction-to-mertons-model)
+   - [Model Setup and Assumptions](#model-setup-and-assumptions)
+   - [Payoff Functions for Different Securities](#payoff-functions-for-different-securities)
+   - [Senior Debt Payoff Analysis](#senior-debt-payoff-analysis)
+   - [Equity Payoff Analysis](#equity-payoff-analysis)
+   - [Junior Debt Payoff Analysis](#junior-debt-payoff-analysis)
+   - [Three-State Analysis Framework](#three-state-analysis-framework)
+   - [Key Takeaways](#key-takeaways-2)
+7. [Lecture 6: Replication and Bankruptcy Analysis](#lecture-6-replication-and-bankruptcy-analysis)
+   - [Replication Approach](#replication-approach)
+   - [Asset Value Dynamics](#asset-value-dynamics)
+   - [Risk-Free vs Risky Debt](#risk-free-vs-risky-debt)
+   - [Put Options and Credit Risk](#put-options-and-credit-risk)
+   - [Absolute Priority Rule (APR)](#absolute-priority-rule-apr)
+   - [Deviations from APR](#deviations-from-apr)
+   - [Bankruptcy Procedures](#bankruptcy-procedures)
+   - [Key Takeaways](#key-takeaways-3)
+
+---
+
+## Course Overview
+
+**Professor**: Alon Raviv (Head of Program)  
+**Focus**: Financial decision making and capital markets
+
+
+### Textbooks
+- **Main**: Corporate Finance by Westford Field and Duffield
+- **Secondary**: Investment by Woody Ken and Marcus (10th edition)
+- Both available in library
+
+---
+
+## Lecture 1: Introduction to Finance
+
+### What is Finance?
+
+Finance is about **business activity patterns** - every business acquires and discloses assets.
+
+### Core Question
+**What do we study in finance?**
+
+**Decision making** regarding:
+- How to finance ourselves
+- Which investments to make
+
+### Types of Finance
+
+#### Personal Finance
+- Life goal management
+- Risk management
+- Budgeting and cash flow
+- Credit management
+- Insurance and retirement planning
+
+#### Corporate Finance (95% of course)
+- Investment decisions
+- Financing decisions
+- Capital structure
+- Dividend policy
+
+#### Public Finance
+- Government financial decisions
+
+### Real vs Financial Assets
+
+### Real Assets
+**Definition**: Assets that produce other assets or income
+
+**Examples**:
+- Manufacturing equipment
+- Real estate
+- Land
+- Machinery
+- Buildings
+
+**Key**: Can be used to create products and generate income
+
+**Simple Example**: A pizza oven in a restaurant - it directly produces pizzas (goods) that generate income
+
+### Financial Assets
+**Definition**: Claims on real assets or other financial assets
+
+**Examples**:
+- Bonds and stocks
+- Cash (claim against central bank)
+- Certificates of ownership
+
+**Key**: Represent ownership/claims, don't directly produce goods
+
+**Simple Example**: A stock certificate of Apple - it doesn't produce iPhones directly, but gives you ownership claim to Apple's real assets (factories, equipment, etc.)
+
+```mermaid
+graph TD
+    A[Assets] --> B[Real Assets]
+    A --> C[Financial Assets]
+    
+    B --> D[Equipment]
+    B --> E[Real Estate]
+    B --> F[Machinery]
+    
+    C --> G[Bonds]
+    C --> H[Stocks]
+    C --> I[Cash]
+    
+    D --> J[Produces Goods]
+    E --> J
+    F --> J
+    
+    G --> K[Claims on Assets]
+    H --> K
+    I --> K
+```
+
+### Corporate Decisions
+
+Every corporation has **two main decision types**:
+
+### 1. Investment Decisions
+**Question**: What should we do with our money?
+
+**Examples**:
+- Invest $100B in S&P 500 index
+- Build new facilities
+- Acquire companies
+
+**Goal**: Maximize return given risk
+
+**Simple Example**: Apple deciding whether to build a new iPhone factory in China or invest the money in R&D
+
+### 2. Financing Decisions
+**Question**: Where does the money come from?
+
+**Options**:
+- **Debt**: Borrowing (bonds, loans)
+- **Equity**: Selling ownership (stocks)
+
+**Goal**: Minimize financing cost
+
+**Simple Example**: Tesla needs $1B for new factory - should they borrow from banks (debt) or sell more Tesla stock (equity)?
+
+```mermaid
+graph LR
+    A[Corporation] --> B[Investment Side]
+    A --> C[Financing Side]
+    
+    B --> D[Asset Side]
+    C --> E[Liability Side]
+    
+    D --> F[Maximize Return]
+    E --> G[Minimize Cost]
+```
+
+### Time Value of Money
+
+### Core Principle
+**$100 today ≠ $100 in one year**
+
+Even with:
+- No inflation
+- No credit risk
+- Perfect certainty
+
+### Why?
+1. **Opportunity Cost**: Money can be invested today
+2. **Consumption Preference**: People prefer current consumption
+3. **Real Interest Rate**: Compensation for deferring consumption
+
+### Example
+- Invest $100 at 10% for 1 year
+- Year 1: $100 × 1.10 = $110
+- Year 2: $110 × 1.10 = $121 (not $120!)
+
+**Compound Interest**: Interest on interest
+
+**Simple Analogy**: Like a snowball rolling down a hill - it gets bigger as it rolls because it picks up more snow (interest) on top of the snow it already has
+
+### NPV and Decision Making
+
+### Net Present Value Formula
+**NPV = Present Value of Future Cash Flows - Initial Investment**
+
+### Present Value Formula
+**PV = Future Value / (1 + r)^t**
+
+Where:
+- **r** = Discount rate (required return)
+- **t** = Time period
+
+### Decision Rules
+- **NPV > 0**: Accept project
+- **NPV < 0**: Reject project
+- **NPV = 0**: Indifferent
+
+**Simple Example**: If you can invest $100 and get $110 back (NPV = +$10), you should do it. If you only get $90 back (NPV = -$10), don't do it.
+
+### Mutually Exclusive Projects
+**Rule**: Choose project with **highest NPV**
+
+**Examples**:
+- Bridge vs Tunnel
+- University A vs University B
+- War vs Peace
+
+**Simple Example**: You can only attend one university. Choose the one that gives you the highest NPV (best return on your investment in education).
+
+### MBA Investment Example
+
+### Scenario
+Vasily considering MBA degree investment
+
+### Investment Analysis
+
+#### Initial Costs (Time 0)
+- **Transportation**: 50 shekels × 60 trips = 3,000 shekels
+- **Tuition**: 30,000 shekels
+- **Opportunity Cost**: 12 hours/week × 52 weeks × 100 shekels/hour = 62,400 shekels
+- **Total**: 97,000 shekels
+
+#### Future Benefits
+- **Current Salary**: 150,000 shekels/year
+- **Salary Increase**: 10% for 10 years, then 2%
+- **Additional Income**: 15,000 shekels/year
+
+#### NPV Calculation
+**Assumptions**:
+- 10-year horizon
+- Discount rate: 10%
+- Present Value of Benefits: 92,000 shekels
+- **NPV**: 92,000 - 97,000 = **-5,000 shekels**
+
+**Decision**: Reject MBA
+
+#### Sensitivity Analysis
+**If discount rate = 3%**:
+- Present Value increases
+- NPV becomes positive
+- **Decision**: Accept MBA
+
+```mermaid
+graph TD
+    A[MBA Investment] --> B[Cost: 97,000]
+    A --> C[Benefit: 15,000/year]
+    
+    B --> D[Transport: 3,000]
+    B --> E[Tuition: 30,000]
+    B --> F[Opportunity: 62,400]
+    
+    C --> G[10 years @ 10%]
+    C --> H[Then @ 2%]
+    
+    G --> I[NPV Analysis]
+    H --> I
+    
+    I --> J[r=10%: NPV=-5,000]
+    I --> K[r=3%: NPV>0]
+    
+    J --> L[Reject]
+    K --> M[Accept]
+```
+
+
+---
+
+## Lecture 2: Finance Under Certainty vs Uncertainty
+
+### Types of Finance - Q&A Review
+
+#### Personal Finance Examples
+- **Fixed vs Adjustable Rate Mortgage**: Personal decision about home financing
+- **401K Contribution**: Personal retirement planning decision  
+- **Student Loan Choice**: Government vs private bank loans for tuition
+
+#### Corporate Finance Examples
+- **Machine Purchase vs Lease**: Corporate investment decision
+- **Dividend vs Reinvestment**: Corporate payout policy decision
+- **LLC vs Sole Proprietorship**: Business structure choice
+
+#### Public Finance Examples
+- **Municipal Bonds vs Property Taxes**: City financing for infrastructure
+- **Tax Rate Increases**: Government budget management
+- **Public-Private Partnerships**: Joint infrastructure projects
+
+### Finance Under Certainty
+
+**Definition**: All future cash flows are known with 100% certainty
+
+**Example**: House investment
+- **Initial Investment**: $100,000
+- **Annual Rent**: $5,000 for 10 years
+- **Sale Price**: $105,000 after 10 years
+- **Required Return**: 3%
+
+**Decision**: Compare project return vs alternative investment
+
+**Simple Analogy**: Like a government bond - you know exactly how much you'll get back and when. No surprises, no uncertainty.
+
+### Finance Under Uncertainty
+
+**Definition**: Future outcomes have known probabilities
+
+**Example**: Apple stock analysis
+- **Current Price**: $100
+- **Possible Outcomes**:
+  - High state (10% probability): $160 (+60% return)
+  - Medium states: Various returns
+  - Low state: Lower returns
+
+**Holding Period Return Formula**:
+```
+HPR = (P₁ - P₀) / P₀
+```
+
+**Simple Analogy**: Like weather forecasting - you know there's a 30% chance of rain, 50% chance of clouds, 20% chance of sun. You don't know exactly what will happen, but you know the probabilities.
+
+### Finance Under Ambiguity
+
+**Definition**: Cannot estimate probabilities or outcomes
+
+**Examples**:
+- New payment app in country with unclear regulations
+- Private company acquisition with no audited statements
+- New token offering with no historical data
+
+**Analyst's Task**: Move from ambiguity to uncertainty by gathering data
+
+**Simple Analogy**: Like trying to predict the weather on a planet you've never been to - you have no idea what the climate is like, what the seasons are, or even if it has weather at all. You need to gather data first.
+
+### Financial System Players
+
+#### Capital Suppliers
+- **Households**: Net suppliers (savings, investments)
+- **Exceptions**: When borrowing (mortgages, auto loans)
+
+#### Capital Demanders
+- **Corporations**: Net demanders (investment, operations)
+- **Governments**: Can be borrowers or lenders
+  - **US**: Net borrower (deficit)
+  - **China**: Net lender (surplus)
+  - **Norway**: Net lender (oil reserves)
+
+```mermaid
+graph LR
+    A[Capital Suppliers] --> C[Financial Intermediaries]
+    B[Capital Demanders] --> C
+    
+    A1[Households<br/>Savings & Investments] --> A
+    A2[Businesses<br/>Retained Earnings] --> A
+    A3[Governments<br/>Surplus Funds] --> A
+    
+    B1[Corporations<br/>Investment Projects] --> B
+    B2[Governments<br/>Infrastructure] --> B
+    B3[Households<br/>Mortgages & Loans] --> B
+    
+    C --> D[Commercial Banks]
+    C --> E[Investment Banks]
+    C --> F[Insurance Companies]
+    C --> G[Pension Funds]
+```
+
+#### Financial Intermediaries
+
+**Brokers vs Dealers**:
+- **Broker**: Connects buyers/sellers, earns commission
+- **Dealer**: Owns inventory, takes risk, earns spread
+
+**Simple Analogy**: 
+- **Broker** = Real estate agent (doesn't own houses, just helps you buy/sell)
+- **Dealer** = Car dealership (owns cars, takes risk if they can't sell them)
+
+**Types of Intermediaries**:
+- **Pension Funds**: Manage retirement savings
+- **Mutual Funds**: Pool investor money
+- **Insurance Companies**: Premium investments
+- **Banks**: Commercial vs Investment
+
+### Commercial vs Investment Banks
+
+#### Commercial Banks
+- **Assets**: Loans, government bonds
+- **Liabilities**: Deposits
+- **Activity**: Deposit-taking and lending
+
+#### Investment Banks
+- **Primary Market**: Underwriting new securities
+- **Secondary Market**: Market making, trading
+- **Services**: M&A, advisory, research
+
+### Primary vs Secondary Markets
+
+#### Primary Market
+- **IPO Process**: Company → Investment Bank → Investors
+- **Book Building**: Collecting investor indications
+- **Underwriting Risk**: Bank takes inventory risk
+
+**Simple Example**: When Tesla first went public, they sold new shares to investors through investment banks (primary market)
+
+```mermaid
+graph TD
+    A[Company Issues New Stock] --> B[Primary Market]
+    B --> C[Investment Bank]
+    C --> D[Investors Buy New Shares]
+    D --> E[Money Goes to Company]
+    
+    F[Investor A] --> G[Secondary Market]
+    G --> H[Investor B]
+    H --> I[Money Flows Between Investors]
+    
+    J[Company] -.-> K[No Direct Involvement]
+    
+    style B fill:transparent,stroke:#333,stroke-width:2px
+    style G fill:transparent,stroke:#333,stroke-width:2px
+    style E fill:transparent,stroke:#333,stroke-width:2px
+    style I fill:transparent,stroke:#333,stroke-width:2px
+```
+
+#### Secondary Market
+- **Exchange Trading**: Centralized, automated
+- **OTC Trading**: Direct between parties
+- **Market Makers**: Provide liquidity with bid-ask spreads
+
+**Simple Example**: When you buy Tesla stock today on Robinhood, you're buying from another investor, not from Tesla (secondary market)
+
+### Five Tasks of Financial Manager
+
+1. **Raise Cash**: Sell financial assets (debt/equity)
+2. **Invest Cash**: Buy real assets (equipment, facilities)
+3. **Generate Cash**: Operations create profits
+4. **Manage Cash**: Reinvest or distribute
+5. **Risk Management**: Balance growth vs stability
+
+### Goal of Financial Manager
+
+**Primary Objective**: Maximize shareholder value
+
+**Why Shareholders?**
+- **Residual Claimants**: Last to be paid
+- **Risk Takers**: Bear most uncertainty
+- **Value Maximization**: Benefits all stakeholders
+
+**Payment Hierarchy**:
+1. **Government**: Taxes (mandatory)
+2. **Debt Holders**: Interest and principal (contractual)
+3. **Shareholders**: Dividends (discretionary)
+
+**Simple Analogy**: Like a restaurant - first you pay taxes to the government, then you pay your suppliers (debt holders), and only if there's money left do you pay yourself (shareholders get dividends)
+
+---
+
+## Key Concepts
+
+### Finance Fundamentals
+- **Finance** = Investment + Financing decisions
+- **Real assets** produce goods/services
+- **Financial assets** represent claims
+- **Time value of money** is fundamental
+
+### Decision Framework
+- **NPV Rule**: Accept positive NPV projects
+- **Mutually Exclusive**: Choose highest NPV
+- **Discount Rate**: Reflects opportunity cost
+- **Sensitivity Analysis**: Test scenarios
+
+### Market Structure
+- **Primary Market**: New securities issuance
+- **Secondary Market**: Trading existing securities
+- **Intermediaries**: Connect suppliers and demanders
+- **Market Makers**: Provide liquidity
+
+### Practical Applications
+- **Personal**: Life goal planning
+- **Corporate**: Value maximization
+- **Investment**: Risk-return analysis
+- **Markets**: Efficient allocation
+
+---
+
+## Lecture 3: Financial Manager Tasks and Business Organization
+
+### Administrative Notes
+- **Session Duration**: 1 hour (back-to-back with Professor Mugerman)
+- **Quiz 1**: Split into two parts
+  - Part 1: Due September 1st (10-11 days)
+  - Part 2: Due after Monday's class (additional 10 days)
+- **Each Quiz**: Maximum 30 minutes
+- **Participation**: Active participation encouraged for points
+
+### Five Tasks of Financial Manager
+
+```mermaid
+graph TD
+    A[Financial Manager] --> B[1. Raise Cash from Investors]
+    A --> C[2. Invest in Real Assets]
+    A --> D[3. Generate Cash from Operations]
+    A --> E[4. Reinvest or Pay Out]
+    A --> F[5. Manage Risk]
+    
+    B --> B1[Stocks/Equity]
+    B --> B2[Debt/Bonds]
+    
+    C --> C1[Tangible Assets<br/>Equipment, Buildings]
+    C --> C2[Intangible Assets<br/>R&D, Human Capital]
+    
+    D --> D1[Business Operations]
+    D --> D2[Working Capital]
+    
+    E --> E1[Reinvest in Firm]
+    E --> E2[Pay Dividends]
+    E --> E3[Pay Debt Obligations]
+    
+    F --> F1[Capital Structure]
+    F --> F2[Dividend Policy]
+    
+    style A fill:transparent,stroke:#333,stroke-width:2px
+    style B fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:transparent,stroke:#333,stroke-width:2px
+    style D fill:transparent,stroke:#333,stroke-width:2px
+    style E fill:transparent,stroke:#333,stroke-width:2px
+    style F fill:transparent,stroke:#333,stroke-width:2px
+```
+
+#### 1. Raise Cash from Investors
+- **Method**: Selling financial assets
+- **Types**: Stocks (equity) or loans (debt/bonds)
+- **Stock Terms**: Equity, shares, residual claims
+- **Why "Residual"**: Shareholders are last in payment line
+
+#### 2. Invest in Real Assets
+- **Tangible**: Equipment, buildings, infrastructure
+- **Intangible**: R&D, human capital, intellectual property
+- **Example - Google**: Main investments in R&D and cloud infrastructure
+- **Decision**: How to allocate money between different assets
+
+#### 3. Generate Cash from Operations
+- **Source**: Business activities create cash flow
+- **Management**: Working capital decisions
+- **Example**: Google generates cash from advertising operations
+
+#### 4. Reinvest or Pay Out
+- **Options**:
+  - Reinvest in the firm (growth opportunities)
+  - Pay dividends to stockholders (discretionary)
+  - Pay debt obligations (mandatory)
+- **Decision Framework**: Compare internal vs. external investment returns
+
+#### 5. Manage Risk
+- **Capital Structure**: Debt vs. equity mix
+- **Dividend Policy**: Affects firm's risk profile
+- **Example**: High dividend payout may reduce growth opportunities
+
+### Types of Financial Assets
+
+#### Stocks (Equity)
+- **Common Stock**: Voting rights, residual claims
+- **Preferred Stock**: Senior to common, usually no voting rights
+- **Dual Class Structure**: Different voting rights (e.g., Meta)
+  - Class A: 1 vote per share
+  - Class B: 10 votes per share (held by Zuckerberg)
+- **Payment**: Discretionary dividends
+
+#### Bonds (Debt)
+- **Seniority**: Higher priority than equity
+- **Payment**: Mandatory principal and interest
+- **Recovery**: In bankruptcy, debt holders paid first
+- **Risk**: Lower risk than equity
+
+### Three Types of Financial Decisions
+
+#### 1. Capital Budgeting
+- **Question**: What long-term investment projects should we take?
+- **Focus**: Investment decisions (activities 2 & 3)
+
+#### 2. Capital Structure
+- **Question**: How should we pay for assets? Debt or equity?
+- **Focus**: Financing decisions (activities 1, 4 & 5)
+
+#### 3. Working Capital Management
+- **Question**: How do we manage day-to-day finances?
+- **Focus**: Short-term vs. long-term finance
+
+### Forms of Business Organization
+
+```mermaid
+graph TD
+    A[Business Organization Forms] --> B[Sole Proprietorship]
+    A --> C[Partnership]
+    A --> D[Corporation]
+    
+    B --> B1[Single Owner]
+    B --> B2[Unlimited Liability]
+    B --> B3[Limited Life]
+    B --> B4[Easy to Start]
+    
+    C --> C1[Multiple Owners]
+    C --> C2[Unlimited Liability]
+    C --> C3[Dissolves on Death]
+    C --> C4[More Capital Available]
+    
+    D --> D1[Separate Legal Entity]
+    D --> D2[Limited Liability]
+    D --> D3[Unlimited Life]
+    D --> D4[Double Taxation]
+    
+    style B fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:transparent,stroke:#333,stroke-width:2px
+    style D fill:transparent,stroke:#333,stroke-width:2px
+```
+
+#### 1. Sole Proprietorship
+- **Characteristics**: Single owner, easy to start
+- **Advantages**: 
+  - Less regulated
+  - Keep all profits
+  - Taxed once (personal income)
+- **Disadvantages**:
+  - Limited to owner's life
+  - Limited capital (personal wealth only)
+  - **Unlimited liability**: Personal assets at risk
+  - Difficult to sell ownership
+
+#### 2. Partnership
+- **Characteristics**: Two or more owners
+- **Advantages**: More capital available, relatively easy to start
+- **Disadvantages**:
+  - **Unlimited liability**: All partners personally liable
+  - Dissolves when partner dies or leaves
+  - Difficult to transfer ownership
+- **Example**: Law firms, dental practices
+
+#### 3. Corporation
+- **Characteristics**: Separate legal entity
+- **Advantages**:
+  - **Limited liability**: Personal assets protected
+  - **Unlimited life**: Continues beyond founders
+  - Easy to raise capital (IPO, stock issuance)
+  - Easy to transfer ownership (stock trading)
+- **Disadvantages**:
+  - **Double taxation**: Corporate tax + personal tax on dividends
+  - Separation of ownership and management
+  - More regulation
+
+### Limited Liability Example
+**Scenario**: Company invests $100M in S&P 500, financed by $80M debt
+- **If S&P 500 drops 50%**: Assets worth $50M, owe $80M
+- **Corporation**: Debt holders get $50M, cannot sue shareholders personally
+- **Partnership**: Debt holders can sue partners personally for remaining $30M
+
+### Goal of Financial Management
+**Primary Goal**: Maximize current value of company's stock
+- **Not**: Maximize profit, minimize cost, or maximize market share
+- **Rationale**: Stock price reflects all future cash flows
+- **Example**: Investing in R&D may reduce current profit but increase future value
+
+### Agency Problem
+**Definition**: Conflict between shareholders (principals) and managers (agents)
+
+```mermaid
+graph TD
+    A[Shareholders<br/>Principals] --> B[Board of Directors]
+    B --> C[Managers<br/>Agents]
+    
+    A --> A1[Want: Maximum Stock Value]
+    C --> C1[Want: Job Security]
+    C --> C2[Want: Expensive Perks]
+    C --> C3[Want: Growth & Size]
+    C --> C4[Want: Independence]
+    
+    D[Solutions] --> E[Managerial Incentives<br/>Carrot]
+    D --> F[Takeover Threat<br/>Stick]
+    D --> G[External Pressure]
+    
+    E --> E1[Stock Options]
+    E --> E2[Equity Compensation]
+    E --> E3[Performance-based Pay]
+    
+    F --> F1[Poor Management]
+    F1 --> F2[Low Stock Price]
+    F2 --> F3[Takeover Target]
+    F3 --> F4[Management Replaced]
+    
+    G --> G1[Institutional Investors]
+    G --> G2[Proxy Voting]
+    G --> G3[ESG Considerations]
+    
+    style A fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:transparent,stroke:#333,stroke-width:2px
+    style E fill:transparent,stroke:#333,stroke-width:2px
+    style F fill:transparent,stroke:#333,stroke-width:2px
+    style G fill:transparent,stroke:#333,stroke-width:2px
+```
+
+#### Manager Incentives vs. Shareholder Goals
+- **Managers may want**:
+  - Expensive perks (corporate jets, luxury)
+  - Job security (avoid risky projects)
+  - Growth and size (more employees, bigger company)
+  - Independence from shareholder control
+- **Shareholders want**: Maximum stock value
+
+#### Solutions to Agency Problem
+1. **Managerial Incentives** (Carrot):
+   - Stock options
+   - Equity compensation
+   - Performance-based pay
+
+2. **Takeover Threat** (Stick):
+   - Poor management → low stock price
+   - Company becomes takeover target
+   - New owners replace management
+
+3. **External Pressure**:
+   - Institutional investors (pension funds)
+   - Proxy voting
+   - ESG considerations
+
+### ESG (Environmental, Social, Governance)
+**Definition**: Framework for evaluating company's impact beyond financial metrics
+
+#### Components
+- **Environmental**: Climate impact, sustainability
+- **Social**: Employee treatment, community impact
+- **Governance**: Corporate ethics, transparency
+
+#### Examples
+- **Environmental**: Carbon footprint, renewable energy
+- **Social**: Diversity, fair labor practices
+- **Governance**: Executive compensation, board independence
+
+### Ethical Considerations
+**Question**: Is maximizing shareholder value always ethical?
+
+#### Examples
+- **Tobacco companies**: Legal but harmful products
+- **Microsoft**: Anti-competitive practices
+- **Google**: Delayed AI development to protect search business
+
+#### Balance
+- **Traditional view**: Maximize shareholder value
+- **Modern view**: Consider all stakeholders
+- **ESG integration**: Value creation with responsibility
+
+### Key Takeaways
+1. **Financial manager's role**: Bridge between investors and operations
+2. **Decision framework**: Investment, financing, and working capital
+3. **Business forms**: Trade-offs between liability, taxation, and flexibility
+4. **Agency problem**: Align manager and shareholder interests
+5. **Modern finance**: Balance profit with social responsibility
+
+### Review Questions
+1. **Three types of financial decisions**: Capital budgeting, capital structure, working capital
+2. **Three business forms**: Corporation, partnership, sole proprietorship
+3. **Goal of financial management**: Maximize current stock value
+4. **Agency problem**: Conflict between managers and shareholders
+5. **Primary vs. secondary markets**: Issuer vs. investor trading
+
+---
+
+## Lecture 4: Financial Assets and Capital Structure
+
+### Quiz Review and Financial Assets
+
+#### Financial Assets vs Real Assets
+**Key Question**: What are examples of financial assets?
+
+**Financial Assets** (represent claims on real assets):
+- Government bonds
+- Corporate bonds  
+- Stock index funds
+- Stock options
+- Corporate debt
+
+**Real Assets** (produce goods/services):
+- Land
+- Real estate
+- Equipment
+- Buildings
+
+**Simple Rule**: If it produces something directly, it's a real asset. If it represents ownership or a claim, it's a financial asset.
+
+#### Investment Banks vs Commercial Banks
+
+**Investment Banks**:
+- Help companies raise capital by selling securities
+- Underwrite new stock/bond offerings
+- Provide M&A advisory services
+- Don't take deposits
+
+**Commercial Banks**:
+- Handle deposits and loans
+- Take deposits from customers
+- Make loans to individuals and businesses
+- Regulated differently than investment banks
+
+**Credit Unions**:
+- Non-profit organizations
+- Members-only (employees of specific companies, residents of specific areas)
+- Use member deposits to lend only to other members
+- Any "profit" distributed back to members
+
+### Agency Problem Mechanisms
+
+**Question**: What mechanisms mitigate agency problems between shareholders and managers?
+
+#### Effective Mechanisms:
+1. **Stock Options**: Align manager compensation with stock performance
+2. **Management Replacement**: Board can fire underperforming managers
+3. **Security Analyst Monitoring**: External analysts monitor company performance
+4. **Takeover Threats**: Poor performance makes company acquisition target
+
+#### Ineffective Mechanisms:
+- **Nepotism**: Hiring family members doesn't solve agency problems
+- **Anti-takeover Provisions**: Protect management, not shareholders
+
+```mermaid
+graph TD
+    A[Agency Problem] --> B[Shareholders vs Managers]
+    
+    B --> C[Shareholders Want]
+    B --> D[Managers Want]
+    
+    C --> C1[Maximum Stock Value]
+    C --> C2[Efficient Operations]
+    C --> C3[Long-term Growth]
+    
+    D --> D1[Job Security]
+    D --> D2[Expensive Perks]
+    D --> D3[Company Size]
+    D --> D4[Independence]
+    
+    E[Solutions] --> F[Stock Options]
+    E --> G[Takeover Threats]
+    E --> H[Analyst Monitoring]
+    E --> I[Board Oversight]
+    
+    F --> F1[Aligns Interests]
+    G --> G1[Market Discipline]
+    H --> H1[External Pressure]
+    I --> I1[Direct Control]
+    
+    style A fill:transparent,stroke:#333,stroke-width:2px
+    style E fill:transparent,stroke:#333,stroke-width:2px
+    style F fill:transparent,stroke:#333,stroke-width:2px
+    style G fill:transparent,stroke:#333,stroke-width:2px
+    style H fill:transparent,stroke:#333,stroke-width:2px
+    style I fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Primary vs Secondary Markets
+
+#### Primary Market
+- **Definition**: Trading of newly issued securities
+- **Process**: Company → Investment Bank → Investors
+- **Money Flow**: Money goes to the issuing company
+- **Example**: IPO (Initial Public Offering)
+
+#### Secondary Market  
+- **Definition**: Trading of previously issued securities
+- **Process**: Investor A → Market → Investor B
+- **Money Flow**: Money flows between investors
+- **Example**: Buying Tesla stock on Robinhood
+
+**Key Insight**: In secondary markets, the company doesn't receive any money from the transaction.
+
+```mermaid
+graph LR
+    A[Company Issues Stock] --> B[Primary Market]
+    B --> C[Investment Bank]
+    C --> D[Investors]
+    D --> E[Money to Company]
+    
+    F[Investor A] --> G[Secondary Market]
+    G --> H[Investor B]
+    H --> I[Money Between Investors]
+    
+    J[Company] -.-> K[No Involvement]
+    
+    style B fill:transparent,stroke:#333,stroke-width:2px
+    style G fill:transparent,stroke:#333,stroke-width:2px
+    style E fill:transparent,stroke:#333,stroke-width:2px
+    style I fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Capital Structure Example
+
+#### Business Setup
+**Scenario**: Partnership to invest in S&P 500 index
+- **Initial Capital**: $20 million (equity)
+- **Debt Financing**: $80 million
+- **Total Investment**: $100 million in S&P 500
+- **Time Horizon**: 1 year
+
+#### Capital Structure Details
+
+**Senior Debt**:
+- **Face Value**: $40 million
+- **Coupon Rate**: 8%
+- **Coupon Payment**: $3.2 million
+- **Total Payment**: $43.2 million (face value + coupon)
+- **Priority**: First to be paid
+
+**Junior/Subordinated Debt**:
+- **Face Value**: $40 million  
+- **Coupon Rate**: 20%
+- **Coupon Payment**: $8 million
+- **Total Payment**: $48 million (face value + coupon)
+- **Priority**: Second to be paid
+
+**Equity**:
+- **Initial Investment**: $20 million
+- **Priority**: Last to be paid (residual claimant)
+
+#### Payment Waterfall Analogy
+
+Think of payments like a waterfall with buckets:
+
+1. **Senior Debt Bucket**: 43.2 liters capacity
+2. **Junior Debt Bucket**: 48 liters capacity  
+3. **Equity Bucket**: Unlimited capacity (gets remaining water)
+
+**Payment Order**:
+1. Fill senior debt bucket completely
+2. Fill junior debt bucket completely
+3. Remaining water goes to equity holders
+
+```mermaid
+graph TD
+    A[Asset Value] --> B[Payment Waterfall]
+    
+    B --> C[Senior Debt<br/>43.2M]
+    B --> D[Junior Debt<br/>48M]
+    B --> E[Equity<br/>Residual]
+    
+    C --> C1[First Priority]
+    D --> D1[Second Priority]
+    E --> E1[Last Priority]
+    
+    F[Asset Value Scenarios] --> G[High: 120M]
+    F --> H[Medium: 100M]
+    F --> I[Low: 80M]
+    
+    G --> G1[All Paid + Equity: 28.8M]
+    H --> H1[All Paid + Equity: 8.8M]
+    I --> I1[Senior: 43.2M<br/>Junior: 36.8M<br/>Equity: 0M]
+    
+    style A fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:transparent,stroke:#333,stroke-width:2px
+    style D fill:transparent,stroke:#333,stroke-width:2px
+    style E fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Payoff Functions and Risk Analysis
+
+#### Scenario Analysis
+
+**Scenario 1: S&P 500 +20% (Assets = $120M)**
+- **Senior Debt**: Receives $43.2M (8% return)
+- **Junior Debt**: Receives $48M (20% return)
+- **Equity**: Receives $28.8M (44% return)
+
+**Scenario 2: S&P 500 0% (Assets = $100M)**
+- **Senior Debt**: Receives $43.2M (8% return)
+- **Junior Debt**: Receives $48M (20% return)
+- **Equity**: Receives $8.8M (-56% return)
+
+**Scenario 3: S&P 500 -20% (Assets = $80M)**
+- **Senior Debt**: Receives $43.2M (8% return)
+- **Junior Debt**: Receives $36.8M (-8% return)
+- **Equity**: Receives $0M (-100% return)
+
+#### Key Insights
+
+**Leverage Effect**:
+- **Equity return** is more sensitive to asset value changes
+- **Debt returns** are capped by coupon rates
+- **Equity has unlimited upside** but limited downside (to zero)
+
+**Risk-Return Trade-off**:
+- **Senior Debt**: Lowest risk, lowest return
+- **Junior Debt**: Medium risk, medium return
+- **Equity**: Highest risk, highest potential return
+
+```mermaid
+graph TD
+    A[Asset Value Changes] --> B[Return Sensitivity]
+    
+    B --> C[Senior Debt]
+    B --> D[Junior Debt]
+    B --> E[Equity]
+    
+    C --> C1[Fixed Return: 8%]
+    C --> C2[Low Risk]
+    C --> C3[Capped Upside]
+    
+    D --> D1[Variable Return]
+    D --> D2[Medium Risk]
+    D --> D3[Some Upside]
+    
+    E --> E1[Highly Variable]
+    E --> E2[High Risk]
+    E --> E3[Unlimited Upside]
+    E --> E4[Limited Downside]
+    
+    F[Leverage Effect] --> G[Equity More Sensitive]
+    F --> H[Debt Less Sensitive]
+    
+    style C fill:transparent,stroke:#333,stroke-width:2px
+    style D fill:transparent,stroke:#333,stroke-width:2px
+    style E fill:transparent,stroke:#333,stroke-width:2px
+    style F fill:transparent,stroke:#333,stroke-width:2px
+```
+
+#### Payoff Functions (Mathematical)
+
+**Senior Debt Payoff**:
+```
+Payoff = min(Asset Value, 43.2)
+```
+
+**Junior Debt Payoff**:
+```
+Payoff = min(max(Asset Value - 43.2, 0), 48)
+```
+
+**Equity Payoff**:
+```
+Payoff = max(Asset Value - 91.2, 0)
+```
+
+#### Default and Bankruptcy
+
+**When Assets < Total Debt ($91.2M)**:
+- **Equity value = 0** (limited liability)
+- **Debt holders** become new owners
+- **Absolute Priority Rule**: Senior debt paid first, then junior debt
+- **Stockholders** lose everything but don't owe additional money
+
+**Key Concept**: Limited liability protects shareholders from personal losses beyond their initial investment.
+
+### Key Takeaways
+
+1. **Financial vs Real Assets**: Financial assets represent claims; real assets produce goods/services
+
+2. **Agency Problem Solutions**: Stock options, takeover threats, analyst monitoring, and board oversight
+
+3. **Market Types**: Primary markets fund companies; secondary markets trade existing securities
+
+4. **Capital Structure**: Different securities have different risk-return profiles and payment priorities
+
+5. **Leverage Effect**: Equity is more sensitive to asset value changes than debt
+
+6. **Limited Liability**: Shareholders' losses are limited to their initial investment
+
+7. **Payment Priority**: Senior debt → Junior debt → Equity (residual claimant)
+
+8. **Risk-Return Trade-off**: Higher priority = lower risk = lower return potential
+
+---
+
+## Lecture 5: Contingent Claim Approach
+
+### Introduction to Merton's Model
+
+**Background**: Developed by Robert Merton (Nobel Prize winner) in 1974
+
+**Purpose**: The contingent claim approach shows not just the payoff of different securities, but also how to price them using options (call and put options).
+
+**Focus for Today**: We will focus on **payoff functions** and **replication equations** that express the value of securities at future time, not current pricing.
+
+**Connection to Previous Session**: Builds directly on the simple corporation example from Lecture 4 with S&P 500 investment financed by three securities.
+
+### Model Setup and Assumptions
+
+#### Basic Setup
+- **Single Asset**: Company invests in one asset with current market value V₀
+- **Our Example**: V₀ = $100 million (S&P 500 investment)
+- **Maturity**: T = 1 year
+- **Asset Value at Maturity**: V_T (stochastic variable)
+
+#### Key Assumptions
+1. **No Taxes**: No tax implications
+2. **No Transaction Costs**: No bid-ask spreads
+3. **No Early Default**: Default can only occur at maturity
+4. **Risk-Free Rate**: Continuous compounding (not crucial for our calculations)
+5. **Asset Dynamics**: Asset value changes according to drift and volatility
+
+```mermaid
+graph TD
+    A[Model Setup] --> B[Single Asset: V₀ = $100M]
+    A --> C[Three Securities]
+    A --> D[Time Horizon: T = 1 year]
+    
+    C --> E[Senior Debt: F₁ = $43.2M]
+    C --> F[Junior Debt: F₂ = $48M]
+    C --> G[Equity: Residual]
+    
+    H[Assumptions] --> I[No Taxes]
+    H --> J[No Transaction Costs]
+    H --> K[No Early Default]
+    H --> L[Asset Value = V_T at maturity]
+    
+    style A fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:transparent,stroke:#333,stroke-width:2px
+    style H fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Payoff Functions for Different Securities
+
+#### Senior Debt Payoff (F₁)
+- **Face Value**: $40 million
+- **Coupon Payment**: $3.2 million
+- **Total Promised Payment**: F₁ = $43.2 million
+
+#### Junior Debt Payoff (F₂)
+- **Face Value**: $40 million
+- **Coupon Payment**: $8 million
+- **Total Promised Payment**: F₂ = $48 million
+
+#### Total Debt Obligation
+- **Total Owed**: F₁ + F₂ = $91.2 million
+- **Payment Waterfall**: Senior first, then junior, then equity (residual)
+
+### Senior Debt Payoff Analysis
+
+#### Payoff Function
+**Senior Debt Payoff = min(V_T, F₁)**
+
+Where:
+- V_T = Asset value at maturity
+- F₁ = $43.2 million (promised payment)
+
+#### Two Scenarios
+1. **V_T < F₁**: Senior debt receives V_T (partial payment)
+2. **V_T ≥ F₁**: Senior debt receives F₁ (full payment)
+
+#### Alternative Expression
+**Senior Debt Payoff = V_T - max(V_T - F₁, 0)**
+
+This shows that senior debt is equivalent to:
+- **Risk-free bond** paying F₁
+- **Minus a put option** on V with strike price F₁
+
+```mermaid
+graph LR
+    A[Asset Value V_T] --> B{Comparison with F₁}
+    
+    B -->|V_T < F₁| C[Senior Debt = V_T]
+    B -->|V_T ≥ F₁| D[Senior Debt = F₁]
+    
+    E[Payoff Structure] --> F[Below F₁: Linear increase]
+    E --> G[Above F₁: Flat at F₁]
+    
+    style C fill:transparent,stroke:#333,stroke-width:2px
+    style D fill:transparent,stroke:#333,stroke-width:2px
+    style F fill:transparent,stroke:#333,stroke-width:2px
+    style G fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Equity Payoff Analysis
+
+#### Payoff Function
+**Equity Payoff = max(V_T - (F₁ + F₂), 0)**
+
+Where:
+- F₁ + F₂ = $91.2 million (total debt obligation)
+
+#### Interpretation
+- **Below $91.2M**: Equity receives $0 (limited liability)
+- **Above $91.2M**: Equity receives residual (V_T - $91.2M)
+
+#### Key Characteristics
+- **Unlimited upside potential**
+- **Limited downside** (cannot go below zero)
+- **Call option-like payoff** on the firm's assets
+
+```mermaid
+graph TD
+    A[Asset Value V_T] --> B{Comparison with Total Debt}
+    
+    B -->|V_T < $91.2M| C[Equity = $0]
+    B -->|V_T ≥ $91.2M| D[Equity = V_T - $91.2M]
+    
+    E[Equity Characteristics] --> F[Unlimited Upside]
+    E --> G[Limited Downside]
+    E --> H[Call Option on Assets]
+    
+    style C fill:transparent,stroke:#333,stroke-width:2px
+    style D fill:transparent,stroke:#333,stroke-width:2px
+    style F fill:transparent,stroke:#333,stroke-width:2px
+    style G fill:transparent,stroke:#333,stroke-width:2px
+    style H fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Junior Debt Payoff Analysis
+
+#### Direct Calculation Method
+**Junior Debt = V_T - Senior Debt - Equity**
+
+This uses the accounting identity: **Assets = Liabilities**
+
+#### Complex Payoff Function
+**Junior Debt = min(F₂, max(V_T - F₁, 0))**
+
+Where:
+- F₂ = $48 million (promised payment)
+- F₁ = $43.2 million (senior debt payment)
+
+#### Three Segments
+1. **V_T < F₁**: Junior debt = $0
+2. **F₁ ≤ V_T < F₁ + F₂**: Junior debt = V_T - F₁ (linear increase)
+3. **V_T ≥ F₁ + F₂**: Junior debt = F₂ (capped at promised amount)
+
+```mermaid
+graph TD
+    A[Asset Value V_T] --> B{Three Segments}
+    
+    B -->|V_T < $43.2M| C[Junior = $0]
+    B -->|$43.2M ≤ V_T < $91.2M| D[Junior = V_T - $43.2M]
+    B -->|V_T ≥ $91.2M| E[Junior = $48M]
+    
+    F[Junior Debt Characteristics] --> G[Zero below F₁]
+    F --> H[Linear increase between F₁ and F₁+F₂]
+    F --> I[Capped at F₂ above F₁+F₂]
+    
+    style C fill:transparent,stroke:#333,stroke-width:2px
+    style D fill:transparent,stroke:#333,stroke-width:2px
+    style E fill:transparent,stroke:#333,stroke-width:2px
+    style G fill:transparent,stroke:#333,stroke-width:2px
+    style H fill:transparent,stroke:#333,stroke-width:2px
+    style I fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Three-State Analysis Framework
+
+#### State 1: V_T < F₁ (Below $43.2M)
+**Example**: V_T = $30M
+- **Senior Debt**: Receives $30M (all available assets)
+- **Junior Debt**: Receives $0
+- **Equity**: Receives $0
+
+#### State 2: F₁ ≤ V_T < F₁ + F₂ (Between $43.2M and $91.2M)
+**Example**: V_T = $70M
+- **Senior Debt**: Receives $43.2M (full promised payment)
+- **Junior Debt**: Receives $26.8M (V_T - F₁ = $70M - $43.2M)
+- **Equity**: Receives $0
+
+#### State 3: V_T ≥ F₁ + F₂ (Above $91.2M)
+**Example**: V_T = $1000M
+- **Senior Debt**: Receives $43.2M (full promised payment)
+- **Junior Debt**: Receives $48M (full promised payment)
+- **Equity**: Receives $908.8M (V_T - F₁ - F₂ = $1000M - $91.2M)
+
+```mermaid
+graph TD
+    A[Asset Value V_T] --> B[State 1: V_T < $43.2M]
+    A --> C[State 2: $43.2M ≤ V_T < $91.2M]
+    A --> D[State 3: V_T ≥ $91.2M]
+    
+    B --> B1[Senior: V_T<br/>Junior: $0<br/>Equity: $0]
+    C --> C1[Senior: $43.2M<br/>Junior: V_T - $43.2M<br/>Equity: $0]
+    D --> D1[Senior: $43.2M<br/>Junior: $48M<br/>Equity: V_T - $91.2M]
+    
+    E[Examples] --> F[State 1: V_T = $30M]
+    E --> G[State 2: V_T = $70M]
+    E --> H[State 3: V_T = $1000M]
+    
+    style B fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:transparent,stroke:#333,stroke-width:2px
+    style D fill:transparent,stroke:#333,stroke-width:2px
+    style F fill:transparent,stroke:#333,stroke-width:2px
+    style G fill:transparent,stroke:#333,stroke-width:2px
+    style H fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Key Takeaways
+
+1. **Merton's Model**: Nobel Prize-winning framework for analyzing corporate securities as contingent claims
+
+2. **Payoff Functions**: Each security has a mathematical payoff function based on asset value at maturity
+
+3. **Senior Debt**: min(V_T, F₁) - receives promised payment or all available assets, whichever is less
+
+4. **Equity**: max(V_T - (F₁ + F₂), 0) - call option on firm's assets with strike price equal to total debt
+
+5. **Junior Debt**: Can be calculated directly using accounting identity or complex payoff function
+
+6. **Three-State Framework**: Systematic way to analyze payoffs across different asset value scenarios
+
+7. **Limited Liability**: Equity holders cannot lose more than their initial investment
+
+8. **Payment Priority**: Senior debt → Junior debt → Equity (residual claimant)
+
+9. **Risk-Return Trade-off**: Higher priority securities have lower risk and lower return potential
+
+10. **Mathematical Approach**: Provides precise framework for understanding security payoffs and relationships
+
+---
+
+## Lecture 6: Replication and Bankruptcy Analysis
+
+### Replication Approach
+
+**Merton's Key Insight**: The contingent claim approach shows not just payoffs, but how to **price** securities by replicating them with traded assets.
+
+**Law of One Price**: If two securities have identical payoffs, they must have identical prices.
+
+**Replication Strategy**: Express corporate securities in terms of:
+- **Risk-free bonds** (fixed payments)
+- **Options** (call and put options)
+- **Other traded securities**
+
+**Practical Application**: Since we don't know how to price corporate bonds directly, we find other securities with the same payoff and use their prices.
+
+### Asset Value Dynamics
+
+#### Geometric Brownian Motion
+**Model**: Asset values follow a stochastic process with two components:
+
+1. **Drift (μ)**: Constant upward trend
+2. **Volatility (σ)**: Random fluctuations
+
+**Mathematical Representation**:
+```
+dV = μV dt + σV dW
+```
+
+Where:
+- **V** = Asset value
+- **μ** = Expected return (drift)
+- **σ** = Volatility
+- **dW** = Random shock (Brownian motion)
+
+#### Visual Representation
+- **X-axis**: Time
+- **Y-axis**: Asset value
+- **Starting Point**: V₀ (initial value)
+- **Multiple Paths**: Various possible future values
+- **Default Threshold**: F₁ + F₂ = $91.2M
+
+```mermaid
+graph TD
+    A[Asset Value Process] --> B[Drift Component]
+    A --> C[Volatility Component]
+    
+    B --> D[Constant Growth Rate μ]
+    C --> E[Random Fluctuations σ]
+    
+    F[Asset Value Paths] --> G[Multiple Possible Outcomes]
+    F --> H[Default Threshold: $91.2M]
+    
+    I[Key Assumptions] --> J[No Early Default]
+    I --> K[Default Only at Maturity]
+    I --> L[Single Asset Focus]
+    
+    style A fill:transparent,stroke:#333,stroke-width:2px
+    style F fill:transparent,stroke:#333,stroke-width:2px
+    style I fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Risk-Free vs Risky Debt
+
+#### Risk-Free Debt
+**Characteristics**:
+- **Government bonds** denominated in local currency
+- **Fixed payment** regardless of economic conditions
+- **No credit risk** (government can print money)
+- **Example**: US Treasury bills
+
+**Payoff**: Always receives promised amount (e.g., $43.2M)
+
+#### Risky Corporate Debt
+**Characteristics**:
+- **Corporate bonds** with credit risk
+- **Payment depends** on firm's asset value
+- **Default risk** when assets < liabilities
+- **Example**: Our S&P 500 investment firm
+
+**Payoff**: min(V_T, F₁) - receives promised amount or all available assets
+
+#### Key Difference
+**Risk-free debt**: Always pays $43.2M
+**Risky debt**: Pays $43.2M only if V_T ≥ $43.2M, otherwise pays V_T
+
+### Put Options and Credit Risk
+
+#### Mathematical Relationship
+**Risky Bond = Risk-Free Bond - Put Option**
+
+**Senior Debt Payoff**:
+```
+min(V_T, F₁) = F₁ - max(F₁ - V_T, 0)
+```
+
+Where:
+- **F₁** = Risk-free bond paying $43.2M
+- **max(F₁ - V_T, 0)** = Put option on firm's assets
+
+#### Interpretation
+- **Risk-free bond**: Always pays $43.2M
+- **Put option**: Pays (F₁ - V_T) when V_T < F₁, zero otherwise
+- **Net result**: Risky bond receives F₁ when V_T ≥ F₁, V_T when V_T < F₁
+
+#### Market Trading
+- **Put options** are traded on CBOE (Chicago Board Options Exchange)
+- **Credit default swaps** are similar instruments
+- **Pricing**: Risky bonds are cheaper than risk-free bonds
+
+```mermaid
+graph LR
+    A[Risky Corporate Bond] --> B[Risk-Free Bond]
+    A --> C[Minus Put Option]
+    
+    B --> D[Always Pays F₁]
+    C --> E[Pays when V_T < F₁]
+    
+    F[Credit Risk] --> G[Default Probability]
+    F --> H[Recovery Rate]
+    F --> I[Volatility Impact]
+    
+    style A fill:transparent,stroke:#333,stroke-width:2px
+    style B fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:transparent,stroke:#333,stroke-width:2px
+    style F fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Absolute Priority Rule (APR)
+
+#### Definition
+**Absolute Priority Rule**: In bankruptcy, claims are paid in strict order of seniority.
+
+#### Payment Order
+1. **Senior Debt**: First priority
+2. **Junior Debt**: Second priority  
+3. **Equity**: Residual claimant (last)
+
+#### Example: Single Debt Case
+**Scenario**: Firm with $100M debt, $70M assets
+- **According to APR**: Debt holders get $70M, equity gets $0
+- **Result**: Debt holders become new owners, equity holders are wiped out
+
+#### Key Principle
+**Assets = Liabilities**: The accounting identity must always hold.
+
+### Deviations from APR
+
+#### When Deviations Occur
+**Real-world situations** where APR is violated:
+
+1. **Intangible Assets**: High value in human capital, technology, relationships
+2. **Bargaining Power**: Equity holders can threaten to leave
+3. **Bankruptcy Costs**: Additional costs if firm is liquidated
+4. **Going Concern Value**: Firm worth more as ongoing business
+
+#### Example: Tech Company
+**Scenario**: Firm owes $100M, has $70M assets, but founders control key technology
+
+**Threat**: If equity holders leave, firm value drops to $30M
+**Bargaining**: Equity holders demand $10M to stay
+**Result**: Debt holders agree to reorganization to preserve value
+
+#### Factors Affecting Deviations
+- **Asset Tangibility**: More tangible assets → closer to APR
+- **Human Capital**: More intangible assets → larger deviations
+- **Industry Type**: Airlines (tangible) vs Tech (intangible)
+
+```mermaid
+graph TD
+    A[Bankruptcy Situation] --> B{Asset Type}
+    
+    B -->|Tangible Assets| C[Close to APR]
+    B -->|Intangible Assets| D[Deviations from APR]
+    
+    C --> E[Airlines, Real Estate]
+    D --> F[Tech Companies, R&D]
+    
+    G[Bargaining Power] --> H[Equity Holders]
+    G --> I[Debt Holders]
+    
+    H --> J[Can Threaten to Leave]
+    I --> K[Want to Preserve Value]
+    
+    L[Factors] --> M[Human Capital]
+    L --> N[Technology]
+    L --> O[Customer Relationships]
+    
+    style A fill:transparent,stroke:#333,stroke-width:2px
+    style B fill:transparent,stroke:#333,stroke-width:2px
+    style G fill:transparent,stroke:#333,stroke-width:2px
+    style L fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Bankruptcy Procedures
+
+#### US Bankruptcy Code
+**Two Main Procedures**:
+
+1. **Chapter 11**: Reorganization
+   - Firm continues operating
+   - 90-180 days to negotiate
+   - Debt and equity holders bargain
+   - Judge can extend negotiation period
+
+2. **Chapter 7**: Liquidation
+   - Firm ceases to exist
+   - Assets sold off
+   - Proceeds distributed according to APR
+   - Judge can "cram down" if no agreement
+
+#### Decision Process
+
+**Step 1**: Enter bankruptcy (Chapter 11)
+**Step 2**: Negotiate reorganization plan
+**Step 3**: If agreement reached → Reorganization
+**Step 4**: If no agreement → Chapter 7 liquidation
+
+```mermaid
+flowchart LR
+    A[Step 1<br/>Enter Chapter 11] --> B[Step 2<br/>Negotiate Plan]
+    B --> C{Step 3<br/>Agreement?}
+    C -->|Yes| D[Step 4a<br/>Reorganization]
+    C -->|No| E[Step 4b<br/>Chapter 7 Liquidation]
+    
+    style A fill:transparent,stroke:#333,stroke-width:2px
+    style B fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:transparent,stroke:#333,stroke-width:2px
+    style D fill:transparent,stroke:#333,stroke-width:2px
+    style E fill:transparent,stroke:#333,stroke-width:2px
+```
+
+#### Key Players
+- **Debt Holders**: Want maximum recovery
+- **Equity Holders**: Want to preserve some value
+- **Judge**: Can force decisions if no agreement
+- **Employees**: Affected by outcome
+
+#### Time Value of Money
+**Deferred Payments**: Sometimes equivalent to reduced payments
+- **Example**: $70M now vs $70M in 15 years
+- **Present Value**: Deferred payment worth less today
+- **Bargaining Tool**: Debt holders may accept deferred payments
+
+### Key Takeaways
+
+1. **Replication Approach**: Corporate securities can be replicated using traded assets (bonds, options)
+
+2. **Law of One Price**: Identical payoffs imply identical prices
+
+3. **Asset Dynamics**: Asset values follow stochastic processes with drift and volatility
+
+4. **Risk-Free vs Risky**: Government bonds are risk-free; corporate bonds have credit risk
+
+5. **Put Options**: Credit risk can be modeled as put options on firm's assets
+
+6. **Absolute Priority Rule**: Theoretical payment order in bankruptcy
+
+7. **APR Deviations**: Real-world deviations occur due to bargaining power and intangible assets
+
+8. **Bankruptcy Procedures**: Chapter 11 (reorganization) vs Chapter 7 (liquidation)
+
+9. **Bargaining Power**: Equity holders' power increases with intangible assets
+
+10. **Time Value**: Deferred payments can be equivalent to reduced payments
+
+11. **Industry Differences**: Tangible asset firms closer to APR than intangible asset firms
+
+12. **Practical Applications**: Understanding these concepts helps analyze real-world bankruptcy situations
+
+---
