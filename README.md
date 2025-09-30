@@ -1,15 +1,16 @@
-# MBA Notes
+# MBA Study Materials | Dasha's IMBA Notes
 
-Конспекты по программе MBA, созданные с помощью Docusaurus.
+Comprehensive MBA study materials covering Finance, Management, Marketing, Operations & more. Free business education resources from International MBA program.
 
-## Описание
+## 📚 What's here
 
-Этот сайт содержит систематизированные конспекты по различным дисциплинам программы MBA, включая:
+Since August 2024, I've been studying at **Bar-Ilan University** on a special track **IMBA + Cyber Security**, and here I collect some of my study notes.
 
-- **Менеджмент** - основы управления и организационного поведения
-- **Маркетинг** - стратегии и инструменты маркетинга
-- **Финансы** - финансовый анализ и планирование
-- **Операции** - управление производственными процессами
+- **📊 Corporate Finance** - Advanced financial analysis, valuation, and corporate decision-making
+- **🎯 Game Theory** - Strategic thinking and decision-making in competitive environments  
+- **🌍 Cross-Cultural Negotiations** - International business negotiations and cultural intelligence
+- **💰 Principles of Finance** - Fundamental finance concepts and financial statement analysis
+- **🇮🇱 Middle East Economics** - Economic development and regional dynamics with focus on Israel's transformation
 
 ## Локальная разработка
 
@@ -55,11 +56,14 @@ npm run serve
 
 ```
 docs/
-├── intro.md              # Главная страница
-├── management/           # Конспекты по менеджменту
-├── marketing/            # Конспекты по маркетингу
-├── finance/              # Конспекты по финансам
-└── operations/           # Конспекты по операциям
+├── intro.md                           # Главная страница
+├── corporate-finance.md               # Корпоративные финансы
+├── game-theory.md                     # Теория игр
+├── cross-cultural-negotiations.md     # Межкультурные переговоры
+├── principles-of-finance.md           # Принципы финансов
+├── middle-east-economics.md           # Экономика Ближнего Востока
+└── operations/
+    └── cross-cultural-negotiations.md # Дополнительные материалы по переговорам
 ```
 
 ## Добавление новых конспектов
