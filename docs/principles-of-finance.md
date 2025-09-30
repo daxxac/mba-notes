@@ -2450,6 +2450,17 @@ graph TD
 
 Test your understanding of the principles of finance with this interactive quiz:
 
+<div className="text-center margin-bottom--lg">
+  <a 
+    href="https://quizlet.com/1084874108/principles-of-finance-flash-cards/?i=4k3gmq&x=1jqt" 
+    target="_blank" 
+    className="button button--primary button--lg margin-top--md"
+  >
+    📚 Open Quizlet Flashcards
+  </a>
+</div>
+
+**Interactive Test:**
 <iframe 
   src="https://quizlet.com/1084874108/test/embed?i=4k3gmq&x=1jj1" 
   height="500" 
