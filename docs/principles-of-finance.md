@@ -2450,8 +2450,11 @@ graph TD
 
 Test your understanding of the principles of finance with this interactive quiz:
 
-[Take the Quizlet Quiz](https://quizlet.com/1084874108/test/embed?i=4k3gmq&x=1jj1)
-
-*Click the link above to open the quiz in a new window and test your knowledge of finance principles.*
+<iframe 
+  src="https://quizlet.com/1084874108/test/embed?i=4k3gmq&x=1jj1" 
+  height="500" 
+  width="100%" 
+  className="margin-bottom--lg"
+></iframe>
 
 ---
