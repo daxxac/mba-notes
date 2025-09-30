@@ -639,14 +639,14 @@ graph TD
 #### 🎯 Quizlet Flashcards & Practice
 **Practice with interactive flashcards and matching games:**
 
-<div style="text-align: center; margin: 20px 0;">
-  <a href="https://quizlet.com/1066928505/ccn-flash-cards/?i=4k3gmq&x=1jqt" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; margin: 10px;">
+<div style={{textAlign: 'center', margin: '20px 0'}}>
+  <a href="https://quizlet.com/1066928505/ccn-flash-cards/?i=4k3gmq&x=1jqt" target="_blank" style={{display: 'inline-block', padding: '12px 24px', backgroundColor: '#007bff', color: 'white', textDecoration: 'none', borderRadius: '8px', fontWeight: 'bold', margin: '10px'}}>
     📚 Open Quizlet Flashcards
   </a>
 </div>
 
 **Interactive Matching Game:**
-<iframe src="https://quizlet.com/1066928505/match/embed?i=4k3gmq&x=1jj1" height="500" width="100%" style="border:0; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 20px 0;"></iframe>
+<iframe src="https://quizlet.com/1066928505/match/embed?i=4k3gmq&x=1jj1" height="500" width="100%" style={{border: '0', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)', margin: '20px 0'}}></iframe>
 
 *Use these tools to test your knowledge of key concepts, power sources, strategies, and cultural differences.*
 
@@ -730,8 +730,8 @@ graph TD
 #### Quizlet Study Set
 **Complete flashcards and practice tests for Cross-Cultural Negotiations:**
 
-<div style="text-align: center; margin: 20px 0;">
-  <a href="https://quizlet.com/1066928505/ccn-flash-cards/?i=4k3gmq&x=1jqt" target="_blank" style="display: inline-block; padding: 12px 24px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 12px; font-weight: bold; margin: 10px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
+<div style={{textAlign: 'center', margin: '20px 0'}}>
+  <a href="https://quizlet.com/1066928505/ccn-flash-cards/?i=4k3gmq&x=1jqt" target="_blank" style={{display: 'inline-block', padding: '12px 24px', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white', textDecoration: 'none', borderRadius: '12px', fontWeight: 'bold', margin: '10px', boxShadow: '0 4px 15px rgba(102, 126, 234, 0.3)'}}>
     🚀 Start Quizlet Practice
   </a>
 </div>
