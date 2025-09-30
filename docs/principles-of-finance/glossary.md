@@ -362,7 +362,4 @@ A comprehensive reference of key financial terms and concepts.
 
 ---
 
-## 📚 More MBA Study Materials
-
-This glossary and other comprehensive MBA notes are available at **[mba.daxxac.dev](https://mba.daxxac.dev)**
 

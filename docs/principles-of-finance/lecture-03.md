@@ -286,6 +286,3 @@ graph TD
 
 ---
 
-## 📚 More MBA Study Materials
-
-This study guide and other comprehensive MBA notes are available at **[mba.daxxac.dev](https://mba.daxxac.dev)**

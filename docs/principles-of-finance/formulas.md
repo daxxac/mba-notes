@@ -336,7 +336,4 @@ Where:
 
 ---
 
-## 📚 More MBA Study Materials
-
-This formula reference and other comprehensive MBA notes are available at **[mba.daxxac.dev](https://mba.daxxac.dev)**
 

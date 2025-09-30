@@ -55,7 +55,5 @@ This study guide and other comprehensive MBA notes are available at **[mba.daxxa
 - 🌍 Middle East Economics
 - ⚙️ Operations Management
 
-**Free • Comprehensive • Always Updated**
-
 Visit [mba.daxxac.dev](https://mba.daxxac.dev) for all materials.
 
