@@ -475,10 +475,10 @@ graph TD
     
     J[Company] -.-> K[No Direct Involvement]
     
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style I fill:transparent,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style I fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 #### Secondary Market
@@ -578,12 +578,12 @@ graph TD
     F --> F1[Capital Structure]
     F --> F2[Dividend Policy]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 #### 1. Raise Cash from Investors
@@ -668,9 +668,9 @@ graph TD
     D --> D3[Unlimited Life]
     D --> D4[Double Taxation]
     
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 #### 1. Sole Proprietorship
@@ -749,11 +749,11 @@ graph TD
     G --> G2[Proxy Voting]
     G --> G3[ESG Considerations]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 #### Manager Incentives vs. Shareholder Goals
@@ -904,12 +904,12 @@ graph TD
     H --> H1[External Pressure]
     I --> I1[Direct Control]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style H fill:transparent,stroke:#333,stroke-width:2px
-    style I fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style I fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Primary vs Secondary Markets
@@ -941,10 +941,10 @@ graph LR
     
     J[Company] -.-> K[No Involvement]
     
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style I fill:transparent,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style I fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Capital Structure Example
@@ -1009,10 +1009,10 @@ graph TD
     H --> H1[All Paid + Equity: 8.8M]
     I --> I1[Senior: 43.2M<br/>Junior: 36.8M<br/>Equity: 0M]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Payoff Functions and Risk Analysis
@@ -1070,10 +1070,10 @@ graph TD
     F[Leverage Effect] --> G[Equity More Sensitive]
     F --> H[Debt Less Sensitive]
     
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 #### Payoff Functions (Mathematical)
@@ -1165,9 +1165,9 @@ graph TD
     H --> K[No Early Default]
     H --> L[Asset Value = V_T at maturity]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style H fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Payoff Functions for Different Securities
@@ -1216,10 +1216,10 @@ graph LR
     E[Payoff Structure] --> F[Below F₁: Linear increase]
     E --> G[Above F₁: Flat at F₁]
     
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Equity Payoff Analysis
@@ -1250,11 +1250,11 @@ graph TD
     E --> G[Limited Downside]
     E --> H[Call Option on Assets]
     
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style H fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Junior Debt Payoff Analysis
@@ -1288,12 +1288,12 @@ graph TD
     F --> H[Linear increase between F₁ and F₁+F₂]
     F --> I[Capped at F₂ above F₁+F₂]
     
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style H fill:transparent,stroke:#333,stroke-width:2px
-    style I fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style I fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Three-State Analysis Framework
@@ -1330,12 +1330,12 @@ graph TD
     E --> G[State 2: V_T = $70M]
     E --> H[State 3: V_T = $1000M]
     
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style H fill:transparent,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Key Takeaways
@@ -1418,9 +1418,9 @@ graph TD
     I --> K[Default Only at Maturity]
     I --> L[Single Asset Focus]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style I fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style I fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Risk-Free vs Risky Debt
@@ -1483,10 +1483,10 @@ graph LR
     F --> H[Recovery Rate]
     F --> I[Volatility Impact]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Absolute Priority Rule (APR)
@@ -1549,10 +1549,10 @@ graph TD
     L --> N[Technology]
     L --> O[Customer Relationships]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style L fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style L fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Bankruptcy Procedures
@@ -1586,11 +1586,11 @@ flowchart LR
     C -->|Yes| D[Step 4a<br/>Reorganization]
     C -->|No| E[Step 4b<br/>Chapter 7 Liquidation]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 #### Key Players
@@ -1694,10 +1694,10 @@ graph TD
     D --> D2[Purchasing Power Decreases]
     D --> D3[Need Higher Returns]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Components of Required Return
@@ -1745,8 +1745,8 @@ graph LR
     
     H[Total Required Return] --> I[7%]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style H fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Simple vs Compound Interest
@@ -1789,8 +1789,8 @@ graph TD
     D[Time Effect] --> E[Simple: Constant Growth]
     D --> F[Compound: Accelerating Growth]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Present Value and Future Value
@@ -1854,9 +1854,9 @@ graph LR
     N --> O[10% discount]
     O --> P[$100 Present]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style I fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style I fill:#f9f9f9,stroke:#333,stroke-width:2px
     style M fill:transparent,stroke:#333,stroke-width:2px
 ```
 
@@ -1937,8 +1937,8 @@ graph TD
     L[Decision] --> M[Choose Option 1]
     M --> N[Save $815]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style L fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style L fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Practical Examples
@@ -2002,10 +2002,10 @@ graph TD
     D --> L[Annuity vs Lump Sum]
     D --> M[Required Return]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Key Takeaways
@@ -2113,8 +2113,8 @@ graph TD
     I --> K
     J --> K
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style K fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style K fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Growing Annuities
@@ -2185,8 +2185,8 @@ graph TD
     M --> O[Pay = $12M: Zero NPV]
     M --> P[Pay > $12M: Negative NPV]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style L fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style L fill:#f9f9f9,stroke:#333,stroke-width:2px
     style M fill:transparent,stroke:#333,stroke-width:2px
 ```
 
@@ -2239,10 +2239,10 @@ graph TD
     L --> N[Preferred Stock]
     L --> O[Valuation Models]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style H fill:transparent,stroke:#333,stroke-width:2px
-    style L fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style L fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Growing Perpetuities
@@ -2339,9 +2339,9 @@ graph TD
     O --> Q[Unrealistic Growth Rates]
     O --> R[r ≤ g (Invalid)]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style J fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style J fill:#f9f9f9,stroke:#333,stroke-width:2px
     style O fill:transparent,stroke:#333,stroke-width:2px
 ```
 
@@ -2407,11 +2407,11 @@ graph TD
     E --> P[Risk vs Return]
     E --> Q[Time Horizon]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Key Takeaways
@@ -2450,6 +2450,8 @@ graph TD
 
 Test your understanding of the principles of finance with this interactive quiz:
 
-<iframe src="https://quizlet.com/1084874108/test/embed?i=4k3gmq&x=1jj1" height="500" width="100%" style="border:0"></iframe>
+[Take the Quizlet Quiz](https://quizlet.com/1084874108/test/embed?i=4k3gmq&x=1jj1)
+
+*Click the link above to open the quiz in a new window and test your knowledge of finance principles.*
 
 ---
