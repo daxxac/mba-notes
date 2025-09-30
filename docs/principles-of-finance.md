@@ -2028,3 +2028,11 @@ graph TD
 10. **Real-World Impact**: Understanding time value of money helps make better financial decisions in both personal and business contexts.
 
 ---
+
+## Quiz: Test Your Knowledge
+
+Test your understanding of the principles of finance with this interactive quiz:
+
+<iframe src="https://quizlet.com/1084874108/test/embed?i=4k3gmq&x=1jj1" height="500" width="100%" style="border:0"></iframe>
+
+---
