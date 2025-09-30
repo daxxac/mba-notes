@@ -1,0 +1,21 @@
+# Global code owners
+* @daxxac
+
+# Documentation
+docs/ @daxxac
+*.md @daxxac
+
+# Configuration files
+docusaurus.config.ts @daxxac
+sidebars.ts @daxxac
+package.json @daxxac
+tsconfig.json @daxxac
+
+# GitHub workflows
+.github/ @daxxac
+
+# Source code
+src/ @daxxac
+
+# Static assets
+static/ @daxxac
