@@ -37,3 +37,11 @@ docs/
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript
 - [GitHub Actions](https://github.com/features/actions) - CI/CD
 - [GitHub Pages](https://pages.github.com/) - Hosting
+
+---
+
+<div align="right">
+  <a href="https://github.com/daxxac" target="_blank">
+    <img src="static/img/light.webp" alt="daxxac" height="24" style="border-radius: 4px;">
+  </a>
+</div>
