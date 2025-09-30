@@ -64,6 +64,24 @@ sidebar_position: 5
    - [Deviations from APR](#deviations-from-apr)
    - [Bankruptcy Procedures](#bankruptcy-procedures)
    - [Key Takeaways](#key-takeaways-3)
+8. [Lecture 7: Time Value of Money](#lecture-7-time-value-of-money)
+   - [Introduction to Time Value of Money](#introduction-to-time-value-of-money)
+   - [Why Money Has Time Value](#why-money-has-time-value)
+   - [Components of Required Return](#components-of-required-return)
+   - [Simple vs Compound Interest](#simple-vs-compound-interest)
+   - [Present Value and Future Value](#present-value-and-future-value)
+   - [Annuities](#annuities)
+   - [Practical Examples](#practical-examples)
+   - [Key Takeaways](#key-takeaways-4)
+9. [Lecture 8: Advanced Cash Flow Valuation](#lecture-8-advanced-cash-flow-valuation)
+   - [Introduction to Advanced Cash Flows](#introduction-to-advanced-cash-flows)
+   - [Future Value of Annuities](#future-value-of-annuities)
+   - [Growing Annuities](#growing-annuities)
+   - [Perpetuities](#perpetuities)
+   - [Growing Perpetuities](#growing-perpetuities)
+   - [Stock Valuation Models](#stock-valuation-models)
+   - [Practical Examples](#practical-examples-1)
+   - [Key Takeaways](#key-takeaways-5)
 
 ---
 
@@ -457,10 +475,10 @@ graph TD
     
     J[Company] -.-> K[No Direct Involvement]
     
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style I fill:transparent,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style I fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 #### Secondary Market
@@ -560,12 +578,12 @@ graph TD
     F --> F1[Capital Structure]
     F --> F2[Dividend Policy]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 #### 1. Raise Cash from Investors
@@ -650,9 +668,9 @@ graph TD
     D --> D3[Unlimited Life]
     D --> D4[Double Taxation]
     
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 #### 1. Sole Proprietorship
@@ -731,11 +749,11 @@ graph TD
     G --> G2[Proxy Voting]
     G --> G3[ESG Considerations]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 #### Manager Incentives vs. Shareholder Goals
@@ -886,12 +904,12 @@ graph TD
     H --> H1[External Pressure]
     I --> I1[Direct Control]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style H fill:transparent,stroke:#333,stroke-width:2px
-    style I fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style I fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Primary vs Secondary Markets
@@ -923,10 +941,10 @@ graph LR
     
     J[Company] -.-> K[No Involvement]
     
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style I fill:transparent,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style I fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Capital Structure Example
@@ -991,10 +1009,10 @@ graph TD
     H --> H1[All Paid + Equity: 8.8M]
     I --> I1[Senior: 43.2M<br/>Junior: 36.8M<br/>Equity: 0M]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Payoff Functions and Risk Analysis
@@ -1052,10 +1070,10 @@ graph TD
     F[Leverage Effect] --> G[Equity More Sensitive]
     F --> H[Debt Less Sensitive]
     
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 #### Payoff Functions (Mathematical)
@@ -1147,9 +1165,9 @@ graph TD
     H --> K[No Early Default]
     H --> L[Asset Value = V_T at maturity]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style H fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Payoff Functions for Different Securities
@@ -1198,10 +1216,10 @@ graph LR
     E[Payoff Structure] --> F[Below F₁: Linear increase]
     E --> G[Above F₁: Flat at F₁]
     
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Equity Payoff Analysis
@@ -1232,11 +1250,11 @@ graph TD
     E --> G[Limited Downside]
     E --> H[Call Option on Assets]
     
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style H fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Junior Debt Payoff Analysis
@@ -1270,12 +1288,12 @@ graph TD
     F --> H[Linear increase between F₁ and F₁+F₂]
     F --> I[Capped at F₂ above F₁+F₂]
     
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style H fill:transparent,stroke:#333,stroke-width:2px
-    style I fill:transparent,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style I fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Three-State Analysis Framework
@@ -1312,12 +1330,12 @@ graph TD
     E --> G[State 2: V_T = $70M]
     E --> H[State 3: V_T = $1000M]
     
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style H fill:transparent,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Key Takeaways
@@ -1400,9 +1418,9 @@ graph TD
     I --> K[Default Only at Maturity]
     I --> L[Single Asset Focus]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
-    style I fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style I fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Risk-Free vs Risky Debt
@@ -1465,10 +1483,10 @@ graph LR
     F --> H[Recovery Rate]
     F --> I[Volatility Impact]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style F fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Absolute Priority Rule (APR)
@@ -1531,10 +1549,10 @@ graph TD
     L --> N[Technology]
     L --> O[Customer Relationships]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style G fill:transparent,stroke:#333,stroke-width:2px
-    style L fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style G fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style L fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 ### Bankruptcy Procedures
@@ -1568,11 +1586,11 @@ flowchart LR
     C -->|Yes| D[Step 4a<br/>Reorganization]
     C -->|No| E[Step 4b<br/>Chapter 7 Liquidation]
     
-    style A fill:transparent,stroke:#333,stroke-width:2px
-    style B fill:transparent,stroke:#333,stroke-width:2px
-    style C fill:transparent,stroke:#333,stroke-width:2px
-    style D fill:transparent,stroke:#333,stroke-width:2px
-    style E fill:transparent,stroke:#333,stroke-width:2px
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 #### Key Players
@@ -1612,5 +1630,842 @@ flowchart LR
 11. **Industry Differences**: Tangible asset firms closer to APR than intangible asset firms
 
 12. **Practical Applications**: Understanding these concepts helps analyze real-world bankruptcy situations
+
+---
+
+## Lecture 7: Time Value of Money
+
+### Introduction to Time Value of Money
+
+**Core Principle**: Money today is worth more than the same amount of money in the future.
+
+**Why This Matters**: In finance, we need to compare cash flows that happen at different times. We cannot simply add $100 today + $100 next year = $200. We must account for the time value of money.
+
+**Simple Example**: 
+- Would you rather have $100 today or $100 in one year?
+- Most people choose $100 today because they can invest it and have more than $100 in one year.
+
+### Why Money Has Time Value
+
+#### 1. Opportunity Cost
+**Definition**: The cost of giving up the next best alternative.
+
+**Example**: If you have $100 today, you can:
+- Buy something now
+- Invest it and earn interest
+- Save it for future use
+
+**Simple Analogy**: Like choosing between eating a cookie now or saving it for later. The cookie now has more value because you can enjoy it immediately.
+
+#### 2. Consumption Preference
+**Definition**: People prefer to consume goods and services now rather than later.
+
+**Example**: A child asking for gum:
+- "Give me one gum now, and I'll give you two gums tomorrow"
+- This shows natural preference for current consumption
+
+**Real Rate of Return**: The compensation for delaying consumption, even without inflation or risk.
+
+#### 3. Inflation Risk
+**Definition**: The risk that prices will increase over time, reducing purchasing power.
+
+**Example**: 
+- Today: $100 can buy 100 apples at $1 each
+- Next year: $100 can only buy 50 apples at $2 each
+- Inflation rate: 100%
+
+**Simple Analogy**: Like a shrinking shopping cart - the same amount of money buys fewer items over time.
+
+```mermaid
+graph TD
+    A[Time Value of Money] --> B[Opportunity Cost]
+    A --> C[Consumption Preference]
+    A --> D[Inflation Risk]
+    
+    B --> B1[Can Invest Today]
+    B --> B2[Earn Interest]
+    B --> B3[Future Value > Present Value]
+    
+    C --> C1[Prefer Now vs Later]
+    C --> C2[Real Rate of Return]
+    C --> C3[Compensation for Waiting]
+    
+    D --> D1[Prices Increase]
+    D --> D2[Purchasing Power Decreases]
+    D --> D3[Need Higher Returns]
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+```
+
+### Components of Required Return
+
+**Required Return = Real Rate + Expected Inflation + Risk Premium**
+
+#### 1. Real Rate of Return
+**Definition**: Compensation for delaying consumption, without inflation or risk.
+
+**Characteristics**:
+- Usually stable over time
+- Varies by country and time period
+- Determined by people's risk preferences
+
+**Example**: 2-3% real rate is common in developed countries.
+
+#### 2. Expected Inflation
+**Definition**: The expected increase in prices over the investment period.
+
+**Types of Inflation**:
+- **Supply-side inflation**: When production decreases (e.g., bad weather reduces apple harvest)
+- **Demand-side inflation**: When money supply increases (e.g., government prints more money)
+
+**Example**: If expected inflation is 3%, you need 3% higher return to maintain purchasing power.
+
+#### 3. Risk Premium
+**Definition**: Additional return required for taking on risk.
+
+**Types of Risk**:
+- **Credit risk**: Risk of default (corporate bonds vs government bonds)
+- **Inflation risk premium**: Uncertainty about future inflation
+- **Market risk**: General market fluctuations
+
+**Example**: Corporate bonds pay higher interest than government bonds because of credit risk.
+
+```mermaid
+graph LR
+    A[Required Return] --> B[Real Rate: 2%]
+    A --> C[Expected Inflation: 3%]
+    A --> D[Risk Premium: 2%]
+    
+    B --> E[Time Value of Money]
+    C --> F[Purchasing Power Protection]
+    D --> G[Compensation for Risk]
+    
+    H[Total Required Return] --> I[7%]
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
+```
+
+### Simple vs Compound Interest
+
+#### Simple Interest
+**Definition**: Interest calculated only on the principal amount.
+
+**Formula**: Interest = Principal × Rate × Time
+
+**Example**: $100 at 10% simple interest for 2 years
+- Year 1: $100 × 10% = $10 interest
+- Year 2: $100 × 10% = $10 interest
+- Total: $100 + $20 = $120
+
+#### Compound Interest
+**Definition**: Interest calculated on principal plus previously earned interest.
+
+**Formula**: Future Value = Principal × (1 + Rate)^Time
+
+**Example**: $100 at 10% compound interest for 2 years
+- Year 1: $100 × 1.10 = $110
+- Year 2: $110 × 1.10 = $121
+- Total: $121
+
+**Key Difference**: Compound interest earns "interest on interest"
+
+```mermaid
+graph TD
+    A[Interest Types] --> B[Simple Interest]
+    A --> C[Compound Interest]
+    
+    B --> B1[Interest on Principal Only]
+    B --> B2[Linear Growth]
+    B --> B3[Example: $100 → $120]
+    
+    C --> C1[Interest on Principal + Interest]
+    C --> C2[Exponential Growth]
+    C --> C3[Example: $100 → $121]
+    
+    D[Time Effect] --> E[Simple: Constant Growth]
+    D --> F[Compound: Accelerating Growth]
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+```
+
+### Present Value and Future Value
+
+#### Future Value (FV)
+**Definition**: The value of money at a future date.
+
+**Formula**: FV = PV × (1 + r)^t
+
+Where:
+- **PV** = Present Value (money today)
+- **r** = Interest rate (required return)
+- **t** = Time period
+
+**Example**: $100 today at 10% for 2 years
+- FV = $100 × (1.10)² = $100 × 1.21 = $121
+
+#### Present Value (PV)
+**Definition**: The value today of money to be received in the future.
+
+**Formula**: PV = FV / (1 + r)^t
+
+**Example**: $121 in 2 years at 10% discount rate
+- PV = $121 / (1.10)² = $121 / 1.21 = $100
+
+**Key Insight**: Discounting is the reverse of compounding.
+
+#### Practical Example: Office Lease Decision
+
+**Scenario**: Infosoft company needs office space
+- **Option 1**: Pay $500,000 in 10 years
+- **Option 2**: Pay some amount today
+- **Required return**: 10%
+
+**Question**: What amount today makes you indifferent between the two options?
+
+**Solution**:
+- PV = $500,000 / (1.10)¹⁰
+- PV = $500,000 / 2.594
+- PV = $192,772
+
+**Decision Rule**: 
+- If asked to pay less than $192,772 today → Choose today's payment
+- If asked to pay more than $192,772 today → Choose future payment
+
+```mermaid
+graph LR
+    A[Present Value] --> B[Future Value]
+    B --> C[Compounding]
+    C --> D[Interest on Interest]
+    
+    E[Future Value] --> F[Present Value]
+    F --> G[Discounting]
+    G --> H[Time Value Adjustment]
+    
+    I[Example] --> J[$100 Today]
+    J --> K[10% for 2 years]
+    K --> L[$121 Future]
+    
+    M[Reverse] --> N[$121 Future]
+    N --> O[10% discount]
+    O --> P[$100 Present]
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style I fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style M fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Annuities
+
+#### Definition
+**Annuity**: A series of equal payments made at regular intervals.
+
+**Examples**:
+- Monthly rent payments
+- Annual insurance premiums
+- Retirement account withdrawals
+- Loan payments
+
+#### Types of Annuities
+
+**1. Ordinary Annuity**: Payments made at the end of each period
+**2. Annuity Due**: Payments made at the beginning of each period
+
+#### Present Value of Annuity Formula
+
+**PV of Annuity = Payment × [(1 - (1 + r)^(-n)) / r]**
+
+Where:
+- **Payment** = Regular payment amount
+- **r** = Interest rate per period
+- **n** = Number of periods
+
+#### Practical Example: Copier Purchase Decision
+
+**Scenario**: Infosoft needs a copier
+- **Option 1**: Pay $10,000 cash today
+- **Option 2**: Pay $3,000 per year for 5 years
+- **Required return**: 12%
+
+**Question**: Which option is cheaper?
+
+**Solution - Option 2 (Annuity)**:
+- Payment = $3,000
+- r = 12% = 0.12
+- n = 5 years
+
+**Step 1**: Calculate (1 + r)^(-n)
+- (1.12)^(-5) = 0.567
+
+**Step 2**: Calculate 1 - (1 + r)^(-n)
+- 1 - 0.567 = 0.433
+
+**Step 3**: Divide by r
+- 0.433 / 0.12 = 3.605
+
+**Step 4**: Multiply by payment
+- $3,000 × 3.605 = $10,815
+
+**Decision**: Choose Option 1 ($10,000) because it's cheaper than Option 2 ($10,815).
+
+```mermaid
+graph TD
+    A[Copier Purchase Decision] --> B[Option 1: $10,000 Today]
+    A --> C[Option 2: $3,000 × 5 years]
+    
+    B --> D[Present Value: $10,000]
+    
+    C --> E[Year 1: $3,000]
+    C --> F[Year 2: $3,000]
+    C --> G[Year 3: $3,000]
+    C --> H[Year 4: $3,000]
+    C --> I[Year 5: $3,000]
+    
+    E --> J[Discount to Present]
+    F --> J
+    G --> J
+    H --> J
+    I --> J
+    
+    J --> K[Present Value: $10,815]
+    
+    L[Decision] --> M[Choose Option 1]
+    M --> N[Save $815]
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style L fill:#f9f9f9,stroke:#333,stroke-width:2px
+```
+
+### Practical Examples
+
+#### Example 1: Retirement Planning
+
+**Scenario**: 25-year-old planning for retirement
+- **Current investment**: $100
+- **Time horizon**: 40 years
+- **Investment options**:
+  - Stocks: 12.4% average return
+  - Government bonds: 5.3% average return
+  - Cash/T-bills: 3.8% average return
+
+**Future Value Calculations**:
+- **Stocks**: $100 × (1.124)⁴⁰ = $10,000+
+- **Bonds**: $100 × (1.053)⁴⁰ = $750
+- **Cash**: $100 × (1.038)⁴⁰ = $400
+
+**Key Insight**: The power of compound interest over long periods is enormous.
+
+#### Example 2: Loan vs Lease Decision
+
+**Scenario**: Business equipment financing
+- **Equipment cost**: $50,000
+- **Option 1**: Bank loan at 8% for 5 years
+- **Option 2**: Lease at $12,000 per year for 5 years
+
+**Analysis**:
+- **Loan**: Calculate monthly payments using annuity formula
+- **Lease**: Calculate present value of lease payments
+- **Decision**: Choose option with lower present value
+
+#### Example 3: Investment Comparison
+
+**Scenario**: Comparing two investment opportunities
+- **Investment A**: $1,000 today, $1,500 in 3 years
+- **Investment B**: $1,000 today, $200 per year for 8 years
+- **Required return**: 10%
+
+**Analysis**:
+- **Investment A**: PV = $1,500 / (1.10)³ = $1,127
+- **Investment B**: PV = $200 × annuity factor = $1,067
+- **Decision**: Choose Investment A (higher present value)
+
+```mermaid
+graph TD
+    A[Investment Decisions] --> B[Retirement Planning]
+    A --> C[Loan vs Lease]
+    A --> D[Investment Comparison]
+    
+    B --> E[Long-term Compound Interest]
+    B --> F[Risk vs Return Trade-off]
+    B --> G[Time Horizon Matters]
+    
+    C --> H[Present Value Analysis]
+    C --> I[Cash Flow Timing]
+    C --> J[Interest Rate Impact]
+    
+    D --> K[Multiple Cash Flows]
+    D --> L[Annuity vs Lump Sum]
+    D --> M[Required Return]
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+```
+
+### Key Takeaways
+
+1. **Time Value of Money**: Money today is worth more than the same amount in the future.
+
+2. **Three Components of Required Return**:
+   - Real rate (compensation for waiting)
+   - Expected inflation (purchasing power protection)
+   - Risk premium (compensation for uncertainty)
+
+3. **Compound Interest**: Interest on interest creates exponential growth over time.
+
+4. **Present Value**: The value today of future cash flows, calculated by discounting.
+
+5. **Future Value**: The value in the future of money invested today, calculated by compounding.
+
+6. **Annuities**: Regular payments that can be valued using present value formulas.
+
+7. **Decision Making**: Always compare alternatives using present value analysis.
+
+8. **Practical Applications**: Time value of money is used in retirement planning, loan decisions, and investment analysis.
+
+9. **Key Formulas**:
+   - Future Value: FV = PV × (1 + r)^t
+   - Present Value: PV = FV / (1 + r)^t
+   - Annuity PV: PV = Payment × [(1 - (1 + r)^(-n)) / r]
+
+10. **Real-World Impact**: Understanding time value of money helps make better financial decisions in both personal and business contexts.
+
+---
+
+## Lecture 8: Advanced Cash Flow Valuation
+
+### Introduction to Advanced Cash Flows
+
+**Building on Previous Knowledge**: We learned about simple cash flows and annuities in Lecture 7. Now we explore more complex cash flow patterns used in real-world finance.
+
+**Five Types of Cash Flows**:
+1. **Simple Cash Flow**: Single payment at one point in time
+2. **Annuity**: Constant payments over a fixed period
+3. **Growing Annuity**: Payments that grow at a constant rate
+4. **Perpetuity**: Constant payments forever
+5. **Growing Perpetuity**: Payments that grow forever
+
+**Key Insight**: By combining these basic cash flow types, we can value almost any financial security or investment project.
+
+**Simple Analogy**: Like building blocks - with these five basic types, we can construct complex financial structures.
+
+### Future Value of Annuities
+
+#### Definition
+**Future Value of Annuity**: The value at the end of the period of all regular payments plus accumulated interest.
+
+**Key Difference from Present Value**: 
+- **Present Value**: What are the payments worth today?
+- **Future Value**: What will the payments be worth at the end?
+
+#### Example: Savings Account
+**Scenario**: You deposit $2,000 at the end of each year for 3 years
+- **Interest Rate**: 8%
+- **Question**: How much will you have at the end of 3 years?
+
+**Step-by-Step Calculation**:
+- **Year 1**: $2,000 deposited, earns interest for 2 years
+- **Year 2**: $2,000 deposited, earns interest for 1 year  
+- **Year 3**: $2,000 deposited, no interest earned
+
+**Calculation**:
+- Year 1: $2,000 × (1.08)² = $2,332.80
+- Year 2: $2,000 × (1.08)¹ = $2,160.00
+- Year 3: $2,000 × (1.08)⁰ = $2,000.00
+- **Total**: $6,492.80
+
+#### Future Value Formula
+**FV of Annuity = Payment × [((1 + r)^n - 1) / r]**
+
+Where:
+- **Payment** = Regular payment amount
+- **r** = Interest rate per period
+- **n** = Number of periods
+
+**Using the Formula**:
+- FV = $2,000 × [((1.08)³ - 1) / 0.08]
+- FV = $2,000 × [(1.2597 - 1) / 0.08]
+- FV = $2,000 × [0.2597 / 0.08]
+- FV = $2,000 × 3.246
+- FV = $6,492
+
+```mermaid
+graph TD
+    A[Future Value of Annuity] --> B[Year 1: $2,000]
+    A --> C[Year 2: $2,000]
+    A --> D[Year 3: $2,000]
+    
+    B --> E[Earns interest for 2 years]
+    C --> F[Earns interest for 1 year]
+    D --> G[No interest earned]
+    
+    E --> H[$2,000 × 1.08² = $2,332.80]
+    F --> I[$2,000 × 1.08¹ = $2,160.00]
+    G --> J[$2,000 × 1.08⁰ = $2,000.00]
+    
+    H --> K[Total: $6,492.80]
+    I --> K
+    J --> K
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style K fill:#f9f9f9,stroke:#333,stroke-width:2px
+```
+
+### Growing Annuities
+
+#### Definition
+**Growing Annuity**: A series of payments that increase at a constant rate over a fixed period.
+
+**Real-World Examples**:
+- Salary increases over time
+- Rent escalations
+- Dividend growth
+- Revenue growth projections
+
+#### Formula
+**PV of Growing Annuity = Payment × [(1 - ((1 + g)/(1 + r))^n) / (r - g)]**
+
+Where:
+- **Payment** = First payment amount
+- **g** = Growth rate
+- **r** = Discount rate
+- **n** = Number of periods
+
+**Important**: r must be greater than g for the formula to work.
+
+#### Practical Example: Gold Mine Valuation
+
+**Scenario**: You own a gold mine for 20 years
+- **Annual Production**: 5,000 ounces
+- **Current Gold Price**: $300 per ounce
+- **Price Growth**: 3% per year
+- **Required Return**: 10%
+
+**Step 1: Calculate Initial Cash Flow**
+- Year 0: 5,000 × $300 = $1,500,000
+
+**Step 2: Calculate Future Cash Flows**
+- Year 1: $1,500,000 × 1.03 = $1,545,000
+- Year 2: $1,545,000 × 1.03 = $1,591,350
+- And so on...
+
+**Step 3: Calculate Present Value**
+Using the growing annuity formula:
+- PV = $1,545,000 × [(1 - ((1.03)/(1.10))^20) / (0.10 - 0.03)]
+- PV = $1,545,000 × [(1 - 0.9367^20) / 0.07]
+- PV = $1,545,000 × [(1 - 0.4564) / 0.07]
+- PV = $1,545,000 × [0.5436 / 0.07]
+- PV = $1,545,000 × 7.766
+- PV = $12,000,000
+
+**Decision**: This is the fair price of the mine. Paying more would result in negative NPV.
+
+```mermaid
+graph TD
+    A[Gold Mine Valuation] --> B[Initial Cash Flow: $1.5M]
+    A --> C[Growth Rate: 3% per year]
+    A --> D[Time Period: 20 years]
+    A --> E[Required Return: 10%]
+    
+    B --> F[Year 1: $1.545M]
+    F --> G[Year 2: $1.591M]
+    G --> H[Year 3: $1.639M]
+    H --> I[...continues for 20 years]
+    
+    J[Present Value Calculation] --> K[Growing Annuity Formula]
+    K --> L[Fair Price: $12M]
+    
+    M[Decision Rule] --> N[Pay < $12M: Positive NPV]
+    M --> O[Pay = $12M: Zero NPV]
+    M --> P[Pay > $12M: Negative NPV]
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style L fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style M fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Perpetuities
+
+#### Definition
+**Perpetuity**: A series of constant payments that continue forever.
+
+**Historical Context**: Used since the 17th-18th centuries by governments to finance wars and projects.
+
+**Modern Examples**:
+- British Consol bonds (perpetual government bonds)
+- Preferred stock with fixed dividends
+- Some types of annuities
+
+#### Formula
+**PV of Perpetuity = Payment / r**
+
+Where:
+- **Payment** = Constant payment amount
+- **r** = Required rate of return
+
+**Key Insight**: The formula is surprisingly simple - just divide the payment by the interest rate.
+
+#### Example: British Consol Bond
+**Scenario**: British government bond paying £60 forever
+- **Required Return**: 9%
+- **Question**: What is the bond worth today?
+
+**Calculation**:
+- PV = £60 / 0.09
+- PV = £666.67
+
+**Verification**: If we calculate 200 years of payments, we get approximately the same result, proving that payments beyond 50-100 years contribute almost nothing to present value.
+
+```mermaid
+graph TD
+    A[Perpetuity] --> B[Constant Payment Forever]
+    A --> C[Simple Formula: Payment / r]
+    
+    D[Example: British Consol] --> E[Payment: £60 per year]
+    D --> F[Required Return: 9%]
+    D --> G[Present Value: £666.67]
+    
+    H[Time Value Effect] --> I[Years 1-50: Most Value]
+    H --> J[Years 51-100: Some Value]
+    H --> K[Years 100+: Almost Zero]
+    
+    L[Real-World Use] --> M[Government Bonds]
+    L --> N[Preferred Stock]
+    L --> O[Valuation Models]
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style H fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style L fill:#f9f9f9,stroke:#333,stroke-width:2px
+```
+
+### Growing Perpetuities
+
+#### Definition
+**Growing Perpetuity**: A series of payments that grow at a constant rate forever.
+
+**Why Important**: This is the foundation of stock valuation models.
+
+#### Formula
+**PV of Growing Perpetuity = Payment / (r - g)**
+
+Where:
+- **Payment** = First payment amount
+- **r** = Required rate of return
+- **g** = Growth rate
+
+**Important**: r must be greater than g for the formula to work.
+
+#### Example: Growing Dividend Stock
+**Scenario**: Stock with growing dividends
+- **Current Dividend**: $60
+- **Growth Rate**: 3%
+- **Required Return**: 9%
+
+**Calculation**:
+- PV = $60 / (0.09 - 0.03)
+- PV = $60 / 0.06
+- PV = $1,000
+
+**Comparison with Constant Perpetuity**:
+- Constant perpetuity: $60 / 0.09 = $666.67
+- Growing perpetuity: $60 / 0.06 = $1,000
+- **Difference**: $333.33 (50% higher value due to growth)
+
+### Stock Valuation Models
+
+#### Dividend Discount Model (DDM)
+**Basic Idea**: A stock's value equals the present value of all future dividends.
+
+**Why Dividends Matter**:
+- **Dividend Payments**: Direct cash returns to shareholders
+- **Capital Gains**: Stock price appreciation based on expected future dividends
+- **Key Insight**: Everything comes back to dividends eventually
+
+#### Constant Growth Model (Gordon Growth Model)
+**Formula**: **Stock Price = D₁ / (r - g)**
+
+Where:
+- **D₁** = Next year's expected dividend
+- **r** = Required rate of return
+- **g** = Constant growth rate
+
+#### Practical Example: Southwest Airlines (1992)
+**Data**:
+- **Last Dividend Paid**: $2.73
+- **Historical Growth Rate**: 6%
+- **Required Return**: 12.23%
+
+**Step 1: Calculate Next Year's Dividend**
+- D₁ = $2.73 × 1.06 = $2.89
+
+**Step 2: Apply Gordon Growth Model**
+- Stock Price = $2.89 / (0.1223 - 0.06)
+- Stock Price = $2.89 / 0.0623
+- Stock Price = $46.45
+
+**Result**: According to the model, Southwest Airlines should trade at $46.45 per share.
+
+#### Common Mistakes to Avoid
+1. **Using Current Dividend Instead of Next Year's**: Always use D₁, not D₀
+2. **Growth Rate Assumptions**: Be realistic about long-term growth rates
+3. **Required Return**: Must be greater than growth rate
+4. **Dividend Timing**: Understand when dividends are paid
+
+```mermaid
+graph TD
+    A[Stock Valuation] --> B[Dividend Discount Model]
+    A --> C[Gordon Growth Model]
+    
+    B --> D[Present Value of All Future Dividends]
+    C --> E[Stock Price = D₁ / (r - g)]
+    
+    F[Key Components] --> G[D₁: Next Year's Dividend]
+    F --> H[r: Required Return]
+    F --> I[g: Growth Rate]
+    
+    J[Example: Southwest Airlines] --> K[Last Dividend: $2.73]
+    J --> L[Growth Rate: 6%]
+    J --> M[Required Return: 12.23%]
+    J --> N[Calculated Price: $46.45]
+    
+    O[Common Mistakes] --> P[Using D₀ instead of D₁]
+    O --> Q[Unrealistic Growth Rates]
+    O --> R[r ≤ g (Invalid)]
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style J fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style O fill:transparent,stroke:#333,stroke-width:2px
+```
+
+### Practical Examples
+
+#### Example 1: Retirement Planning with Growing Annuities
+**Scenario**: 30-year-old planning retirement
+- **Annual Savings**: $5,000 (grows 3% per year)
+- **Time Horizon**: 35 years
+- **Expected Return**: 8%
+
+**Analysis**: Calculate future value of growing annuity to determine retirement fund size.
+
+#### Example 2: Real Estate Investment
+**Scenario**: Apartment building with growing rent
+- **Current Annual Rent**: $100,000
+- **Rent Growth**: 2% per year
+- **Required Return**: 10%
+- **Holding Period**: 20 years
+
+**Analysis**: Use growing annuity formula to value the rental income stream.
+
+#### Example 3: Company Valuation
+**Scenario**: Tech startup with growing revenues
+- **Current Revenue**: $1 million
+- **Growth Rate**: 15% per year
+- **Required Return**: 20%
+- **Question**: What is the company worth?
+
+**Analysis**: Apply growing perpetuity model (assuming company continues forever).
+
+#### Example 4: Bond vs Stock Comparison
+**Scenario**: Choosing between government bond and dividend stock
+- **Bond**: Pays $100 forever (perpetuity)
+- **Stock**: Pays $100 growing 2% forever (growing perpetuity)
+- **Required Return**: 8%
+
+**Analysis**:
+- **Bond Value**: $100 / 0.08 = $1,250
+- **Stock Value**: $100 / (0.08 - 0.02) = $1,667
+- **Decision**: Stock is more valuable due to growth
+
+```mermaid
+graph TD
+    A[Practical Applications] --> B[Retirement Planning]
+    A --> C[Real Estate Investment]
+    A --> D[Company Valuation]
+    A --> E[Investment Comparison]
+    
+    B --> F[Growing Savings]
+    B --> G[Long-term Horizon]
+    B --> H[Compound Growth]
+    
+    C --> I[Growing Rent Income]
+    C --> J[Property Appreciation]
+    C --> K[Cash Flow Analysis]
+    
+    D --> L[Revenue Projections]
+    D --> M[Growth Assumptions]
+    D --> N[Risk Assessment]
+    
+    E --> O[Bond vs Stock]
+    E --> P[Risk vs Return]
+    E --> Q[Time Horizon]
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+```
+
+### Key Takeaways
+
+1. **Five Cash Flow Types**: Simple, annuity, growing annuity, perpetuity, growing perpetuity
+
+2. **Future Value of Annuities**: Value at the end of the period, calculated using compounding
+
+3. **Growing Annuities**: Payments that increase at a constant rate over time
+
+4. **Perpetuities**: Constant payments forever, valued using simple formula (Payment / r)
+
+5. **Growing Perpetuities**: Growing payments forever, foundation of stock valuation
+
+6. **Stock Valuation**: Gordon Growth Model uses growing perpetuity concept
+
+7. **Key Formulas**:
+   - Future Value of Annuity: FV = Payment × [((1 + r)^n - 1) / r]
+   - Growing Annuity PV: PV = Payment × [(1 - ((1 + g)/(1 + r))^n) / (r - g)]
+   - Perpetuity PV: PV = Payment / r
+   - Growing Perpetuity PV: PV = Payment / (r - g)
+   - Stock Price: Price = D₁ / (r - g)
+
+8. **Important Rules**:
+   - r must be greater than g for growing formulas
+   - Use D₁ (next year's dividend) for stock valuation
+   - Present value of distant payments approaches zero
+
+9. **Practical Applications**: Retirement planning, real estate, company valuation, investment analysis
+
+10. **Real-World Limitations**: Models assume constant growth and required returns, which may not hold in practice
+
+---
+
+## Quiz: Test Your Knowledge
+
+Test your understanding of the principles of finance with this interactive quiz:
+
+<div className="text-center margin-bottom--lg">
+  <a 
+    href="https://quizlet.com/1084874108/principles-of-finance-flash-cards/?i=4k3gmq&x=1jqt" 
+    target="_blank" 
+    className="button button--primary button--lg margin-top--md"
+  >
+    📚 Open Quizlet Flashcards
+  </a>
+</div>
+
+**Interactive Test:**
+<iframe 
+  src="https://quizlet.com/1084874108/test/embed?i=4k3gmq&x=1jj1" 
+  height="500" 
+  width="100%" 
+  className="margin-bottom--lg"
+></iframe>
 
 ---
