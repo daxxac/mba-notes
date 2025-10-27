@@ -9,6 +9,7 @@ const sidebars: SidebarsConfig = {
     'intro',
     'cross-cultural-negotiations',
     'game-theory',
+    'business-game',
     'corporate-finance',
     {
       type: 'category',
