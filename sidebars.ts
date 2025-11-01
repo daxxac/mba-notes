@@ -31,6 +31,30 @@ const sidebars: SidebarsConfig = {
         'principles-of-finance/formulas',
       ],
     },
+    {
+      type: 'category',
+      label: 'Business Strategy',
+      link: {
+        type: 'doc',
+        id: 'business-strategy/index',
+      },
+      items: [
+        'business-strategy/lecture-01',
+        'business-strategy/lecture-02',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Digital Marketing',
+      link: {
+        type: 'doc',
+        id: 'digital-marketing/index',
+      },
+      items: [
+        'digital-marketing/lecture-01',
+        'digital-marketing/lecture-02',
+      ],
+    },
     'middle-east-economics',
   ],
 };
