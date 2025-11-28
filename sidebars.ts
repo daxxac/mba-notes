@@ -41,6 +41,8 @@ const sidebars: SidebarsConfig = {
       items: [
         'business-strategy/lecture-01',
         'business-strategy/lecture-02',
+        'business-strategy/lecture-03',
+        'business-strategy/lecture-04',
       ],
     },
     {

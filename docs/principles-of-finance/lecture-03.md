@@ -6,14 +6,6 @@ sidebar_position: 3
 
 # Lecture 3: Financial Manager Tasks and Business Organization
 
-### Administrative Notes
-- **Session Duration**: 1 hour (back-to-back with Professor Mugerman)
-- **Quiz 1**: Split into two parts
-  - Part 1: Due September 1st (10-11 days)
-  - Part 2: Due after Monday's class (additional 10 days)
-- **Each Quiz**: Maximum 30 minutes
-- **Participation**: Active participation encouraged for points
-
 ### Five Tasks of Financial Manager
 
 ```mermaid

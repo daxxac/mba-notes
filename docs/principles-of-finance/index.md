@@ -19,6 +19,21 @@ sidebar_position: 5
 
 ---
 
+## 📹 Course Video
+
+<iframe 
+  src="https://www.youtube.com/embed/LCd3tDi0FSM" 
+  title="YouTube video player" 
+  width="560" 
+  height="315" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen
+  style={{width: '100%', maxWidth: '560px', aspectRatio: '16/9', borderRadius: '8px', margin: '20px 0'}}
+></iframe>
+
+---
+
 ## 📚 Course Structure
 
 This course covers fundamental principles of corporate finance, including:

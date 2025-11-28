@@ -337,9 +337,9 @@ graph TD
   - Cash/T-bills: 3.8% average return
 
 **Future Value Calculations**:
-- **Stocks**: \$100 \times (1.124)^{40} = 10,000+$
-- **Bonds**: \$100 \times (1.053)^{40} = 750$
-- **Cash**: \$100 \times (1.038)^{40} = 400$
+- **Stocks**: $100 \times (1.124)^{40} = 10{,}000+$
+- **Bonds**: $100 \times (1.053)^{40} = 750$
+- **Cash**: $100 \times (1.038)^{40} = 400$
 
 **Key Insight**: The power of compound interest over long periods is enormous.
 

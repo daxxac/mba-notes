@@ -41,10 +41,10 @@ sidebar_position: 8
 - **Year 3**: \$2,000 deposited, no interest earned
 
 **Calculation**:
-- Year 1: \$2,000 \times (1.08)^2 = 2,332.80$
-- Year 2: \$2,000 \times (1.08)^1 = 2,160.00$
-- Year 3: \$2,000 \times (1.08)^0 = 2,000.00$
-- **Total**: \$6,492.80$
+- Year 1: $2{,}000 \times (1.08)^2 = 2{,}332.80$
+- Year 2: $2{,}000 \times (1.08)^1 = 2{,}160.00$
+- Year 3: $2{,}000 \times (1.08)^0 = 2{,}000.00$
+- **Total**: $6{,}492.80$
 
 #### Future Value of Annuity
 
@@ -120,11 +120,11 @@ Where:
 - **Required Return**: 10%
 
 **Step 1: Calculate Initial Cash Flow**
-- Year 0: \$5,000 \times 300 = 1,500,000$
+- Year 0: $5{,}000 \times 300 = 1{,}500{,}000$
 
 **Step 2: Calculate Future Cash Flows**
-- Year 1: \$1,500,000 \times 1.03 = 1,545,000$
-- Year 2: \$1,545,000 \times 1.03 = 1,591,350$
+- Year 1: $1{,}500{,}000 \times 1.03 = 1{,}545{,}000$
+- Year 2: $1{,}545{,}000 \times 1.03 = 1{,}591{,}350$
 - And so on...
 
 **Step 3: Calculate Present Value**
@@ -253,8 +253,8 @@ Where:
 
 **Comparison with Constant Perpetuity**:
 - Constant perpetuity: $\frac{60}{0.09} = 666.67$
-- Growing perpetuity: $\frac{60}{0.06} = 1,000$
-- **Difference**: \$333.33$ (50% higher value due to growth)
+- Growing perpetuity: $\frac{60}{0.06} = 1{,}000$
+- **Difference**: $333.33$ (50% higher value due to growth)
 
 ### Stock Valuation Models
 
