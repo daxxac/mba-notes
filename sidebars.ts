@@ -57,6 +57,24 @@ const sidebars: SidebarsConfig = {
         'digital-marketing/lecture-02',
       ],
     },
+    {
+      type: 'category',
+      label: 'Research Methods',
+      link: {
+        type: 'doc',
+        id: 'research-methods/index',
+      },
+      items: [
+        'research-methods/lecture-01',
+        'research-methods/lecture-02',
+        'research-methods/lecture-03',
+        'research-methods/lecture-04',
+        'research-methods/lecture-05',
+        'research-methods/lecture-06',
+        'research-methods/lecture-07',
+        'research-methods/formulas',
+      ],
+    },
     'middle-east-economics',
   ],
 };
