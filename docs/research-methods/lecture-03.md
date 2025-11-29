@@ -266,9 +266,9 @@ So we need a way to describe the "center" of the data.
 
 ```mermaid
 graph TD
-    A[Central Location] --> B[Mode<br/>Most Common]
-    A --> C[Mean<br/>Average]
-    A --> D[Median<br/>Middle Value]
+    A[Central Location] --> B[Mode Most Common]
+    A --> C[Mean Average]
+    A --> D[Median Middle Value]
     
     style B fill:#ffccbc
     style C fill:#b3e5fc
@@ -477,7 +477,7 @@ graph TD
     A --> C[n is EVEN]
     
     B --> D[Median = x at position n+1/2]
-    C --> E[Median = average of<br/>x at n/2 and x at n/2+1]
+    C --> E[Median = average of x at n/2 and x at n/2+1]
     
     style B fill:#c8e6c9
     style C fill:#b3e5fc
@@ -824,7 +824,7 @@ graph LR
 
 ```mermaid
 mindmap
-  root((Central<br/>Location))
+  root((Central Location))
     Mode
       Most frequent
       Not affected by outliers

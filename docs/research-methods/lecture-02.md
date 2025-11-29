@@ -193,8 +193,8 @@ graph LR
 
 ```mermaid
 graph TD
-    A[Discrete Quantitative] --> B[Bar Chart<br/>shows individual values]
-    A --> C[Frequency Polygon<br/>shows trend/pattern]
+    A[Discrete Quantitative] --> B[Bar Chart shows individual values]
+    A --> C[Frequency Polygon shows trend/pattern]
     
     style B fill:#4fc3f7
     style C fill:#aed581
@@ -286,8 +286,8 @@ $$d\% = \frac{p(x)}{l}$$
 ```mermaid
 graph TD
     A[Class Widths] --> B{Are they equal?}
-    B -->|Yes| C[Can use f(x) or p(x)<br/>for y-axis]
-    B -->|No| D[MUST use density d<br/>for y-axis]
+    B -->|Yes| C[Can use f(x) or p(x) for y-axis]
+    B -->|No| D[MUST use density d for y-axis]
     
     style D fill:#ff5252
     style C fill:#66bb6a
@@ -480,7 +480,7 @@ graph TD
 
 ```mermaid
 mindmap
-  root((Frequency<br/>Tables))
+  root((Frequency Tables))
     Qualitative
       Bar Chart
       Pie Chart

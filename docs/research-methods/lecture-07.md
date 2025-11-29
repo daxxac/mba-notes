@@ -30,10 +30,10 @@ sidebar_position: 7
 
 ```mermaid
 graph LR
-    A[Correlation] --> B[Measures STRENGTH<br/>of relationship]
-    C[Regression] --> D[Predicts VALUES<br/>using relationship]
-    B --> E[How closely<br/>related?]
-    D --> F[What will<br/>Y be?]
+    A[Correlation] --> B[Measures STRENGTH of relationship]
+    C[Regression] --> D[Predicts VALUES using relationship]
+    B --> E[How closely related?]
+    D --> F[What will Y be?]
 ```
 
 | Aspect | Correlation | Regression |

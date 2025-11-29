@@ -52,8 +52,8 @@ graph TD
     C --> E{Court Decision}
     D --> F{Court Decision}
     E -->|Declare Not Guilty| G[✓ CORRECT]
-    E -->|Declare Guilty| H[✗ TYPE I ERROR<br/>Innocent person in jail!]
-    F -->|Declare Not Guilty| I[✗ TYPE II ERROR<br/>Guilty person free!]
+    E -->|Declare Guilty| H[✗ TYPE I ERROR Innocent person in jail!]
+    F -->|Declare Not Guilty| I[✗ TYPE II ERROR Guilty person free!]
     F -->|Declare Guilty| J[✓ CORRECT]
 ```
 
@@ -491,9 +491,9 @@ graph TD
     A[Start Hypothesis Test] --> B[State H₀ and H₁]
     B --> C[Choose α = 0.05]
     C --> D[Calculate Test Statistic]
-    D --> E{Is Test Statistic<br/>in Critical Region?}
-    E -->|Yes| F[Reject H₀<br/>Evidence for H₁!]
-    E -->|No| G[Don't Reject H₀<br/>Not enough evidence]
+    D --> E{Is Test Statistic in Critical Region?}
+    E -->|Yes| F[Reject H₀ Evidence for H₁!]
+    E -->|No| G[Don't Reject H₀ Not enough evidence]
 ```
 
 ---

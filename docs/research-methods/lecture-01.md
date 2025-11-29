@@ -94,10 +94,10 @@ graph LR
 
 ```mermaid
 flowchart TD
-    A[1. Research Question<br/>Define Population] --> B[2. Research Design]
+    A[1. Research Question Define Population] --> B[2. Research Design]
     B --> C[3. Data Collection]
-    C --> D[4. Organize Data<br/>Tables/Graphs]
-    D --> E[5. Statistical Metrics<br/>Summarize]
+    C --> D[4. Organize Data Tables/Graphs]
+    D --> E[5. Statistical Metrics Summarize]
     E --> F[6. Conclusions]
     
     style A fill:#e1f5ff
@@ -116,11 +116,11 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[1. Research Question<br/>Define Population] --> B[2. Research Design]
-    B --> C[3. Data Collection<br/>FROM SAMPLE]
-    C --> D[4. Organize Data<br/>Tables/Graphs]
+    A[1. Research Question Define Population] --> B[2. Research Design]
+    B --> C[3. Data Collection FROM SAMPLE]
+    C --> D[4. Organize Data Tables/Graphs]
     D --> E[5. Statistical Metrics]
-    E --> F[5. Statistical Inference<br/>Sample → Population]
+    E --> F[5. Statistical Inference Sample → Population]
     F --> G[6. Conclusions]
     
     style C fill:#fff9c4
@@ -183,11 +183,11 @@ flowchart TD
 graph TD
     A[Variable] --> B[Qualitative]
     A --> C[Quantitative]
-    B --> D[Gender<br/>City<br/>Color]
+    B --> D[Gender City Color]
     C --> E[Discrete]
     C --> F[Continuous]
-    E --> G[Number of kids<br/>Dice roll<br/>Students in class]
-    F --> H[Height<br/>Weight<br/>Temperature]
+    E --> G[Number of kids Dice roll Students in class]
+    F --> H[Height Weight Temperature]
     
     style B fill:#ffecb3
     style C fill:#c5e1a5
@@ -216,7 +216,7 @@ graph TD
 
 ```mermaid
 graph LR
-    A[Independent Variable<br/>THE CAUSE] -->|explains/affects| B[Dependent Variable<br/>THE EFFECT]
+    A[Independent Variable THE CAUSE] -->|explains/affects| B[Dependent Variable THE EFFECT]
     
     style A fill:#81c784
     style B fill:#e57373
@@ -306,7 +306,7 @@ Classify these variables:
 
 ```mermaid
 mindmap
-  root((Research Methods<br/>Lesson 1))
+  root((Research Methods Lesson 1))
     Why Statistics?
       Avoid anecdotal evidence
       Make informed decisions
