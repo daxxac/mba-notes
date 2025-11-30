@@ -4,17 +4,17 @@ description: "Hypothesis testing, relationships between variables, correlation, 
 sidebar_position: 6
 ---
 
-# Lesson 6: Hypothesis Testing & Correlation - Simple Student Notes
+# Lesson 6: Hypothesis Testing & Correlation
 
 ## 📹 Video Overview
 
-<iframe 
-  src="https://www.youtube.com/embed/jPMYlvWERuA" 
-  title="Data True Story - YouTube video player" 
-  width="560" 
-  height="315" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+<iframe
+  src="https://www.youtube.com/embed/jPMYlvWERuA"
+  title="Data True Story - YouTube video player"
+  width="560"
+  height="315"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
 
@@ -98,8 +98,8 @@ graph TD
 **Example:** Saying a medicine doesn't work when it actually does
 
 ---
-
 ### Error Comparison Table
+
 
 | Reality → Decision ↓ | H₀ is TRUE | H₁ is TRUE |
 |----------------------|------------|------------|

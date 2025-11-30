@@ -4,7 +4,7 @@ description: "Simple and multiple regression analysis, linear equations, slope, 
 sidebar_position: 7
 ---
 
-# Lesson 7: Regression Analysis - Simple Student Notes
+# Lesson 7: Regression Analysis
 
 ## 📹 Video Overview
 
